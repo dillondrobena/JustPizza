@@ -1,0 +1,2 @@
+module PizzaPagesHelper
+end
