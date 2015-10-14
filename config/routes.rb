@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  get 'pizza_pages/home'
+  get 'pizza_pages/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  #root 'pizza_pages#home'
+  root 'pizza_pages#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

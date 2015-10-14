@@ -1,4 +1,4 @@
 class PizzaPagesController < ApplicationController
-  def home
+  def index
   end
 end
