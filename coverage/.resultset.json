@@ -301,8 +301,8 @@
         null,
         null,
         1,
-        14,
-        9,
+        16,
+        11,
         5,
         2,
         2,
@@ -313,7 +313,7 @@
         null,
         null,
         1,
-        8,
+        9,
         null,
         null,
         1,
@@ -335,7 +335,7 @@
         null,
         null,
         1,
-        4,
+        5,
         null,
         null,
         1,
@@ -376,17 +376,16 @@
         1,
         1,
         1,
-        0,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -541,7 +540,7 @@
       "/Users/dillondrobena/RubymineProjects/JustPizza/app/models/user.rb": [
         1,
         1,
-        24,
+        25,
         1,
         1,
         1,
@@ -576,20 +575,6 @@
         null,
         null
       ],
-      "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/pizza_pages_controller.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/application_controller.rb": [
-        1,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
       "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/users_controller.rb": [
         1,
         1,
@@ -619,10 +604,10 @@
         null,
         null,
         1,
+        2,
+        2,
         1,
         1,
-        0,
-        0,
         null,
         1,
         null,
@@ -630,11 +615,11 @@
         null,
         1,
         1,
-        4,
+        5,
         null,
         null,
         1,
-        7,
+        8,
         3,
         3,
         3,
@@ -642,10 +627,18 @@
         null,
         null,
         1,
-        4,
-        4,
+        5,
+        5,
         null,
         null,
+        null
+      ],
+      "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/sessions_controller.rb": [
@@ -670,8 +663,14 @@
         1,
         null,
         null
+      ],
+      "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/pizza_pages_controller.rb": [
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1444951480
+    "timestamp": 1444952411
   }
 }
