@@ -7,8 +7,8 @@ env:
   - DB=mysql
   - DB=postgresql
 addons:
-  code_climate:
-    repo_token: 29e09c521a83a75425a661ecc96b05ba2d34e2c57873a75d2ef5ad54afddcd43
+    code_climate:
+        repo_token: 29e09c521a83a75425a661ecc96b05ba2d34e2c57873a75d2ef5ad54afddcd43
 script:
   - RAILS_ENV=test bundle exec rake db:migrate --trace
   - bundle exec rake
