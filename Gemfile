@@ -3,10 +3,15 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
-gem 'rspec'
-gem 'coveralls', require: false
-gem 'codeclimate-test-reporter', group: :test, require: nil
 
+#Rspec used for CI testing
+gem 'rspec'
+
+#Coveralls used for test coverage
+gem 'coveralls', require: false
+
+#Bootstrap for client-side css
+gem 'bootstrap-sass'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -50,8 +55,16 @@ group :development do
 end
 
 group :production do
+  #PostgreSQL for production
   gem 'pg'
+  #Rails 12 Factor needed for CI
   gem 'rails_12factor'
+  #Run puma webserver during production instead of webbrick
   gem 'puma'
+end
+
+group :test do
+  #CodeClimate also used for test coverage
+  gem 'codeclimate-test-reporter', require: nil
 end
 
