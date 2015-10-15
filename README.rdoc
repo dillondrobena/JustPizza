@@ -1,4 +1,8 @@
 == README
 {<img src="https://travis-ci.org/dillondrobena/JustPizza.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/dillondrobena/JustPizza]
 {<img src="https://coveralls.io/repos/dillondrobena/JustPizza/badge.svg?branch=master&service=github" alt="Coverage Status" />}[https://coveralls.io/github/dillondrobena/JustPizza?branch=master]
+{<img src="https://codeclimate.com/github/dillondrobena/JustPizza/badges/gpa.svg" />}[https://codeclimate.com/github/dillondrobena/JustPizza]
+{<img src="http://inch-ci.org/github/dillondrobena/JustPizza.svg?branch=master" alt="Inline docs" />}[http://inch-ci.org/github/dillondrobena/JustPizza]
+{<img src="https://gemnasium.com/dillondrobena/JustPizza.svg" alt="Dependency Status" />}[https://gemnasium.com/dillondrobena/JustPizza]
+
 Its JustPizza...what do you expect?
