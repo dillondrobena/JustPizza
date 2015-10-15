@@ -1,5 +1,4 @@
 == README
-{<img src="https://magnum.travis-ci.com/dillondrobena/JustPizza.svg?token=Ap7sTWC2BX2GvrY8bXt9&branch=master" alt="Build Status" />}[https://magnum.travis-ci.com/dillondrobena/JustPizza]
-{<img src="https://coveralls.io/repos/dillondrobena/JustPizza/badge.svg?branch=profiling&service=github" alt="Coverage Status" />}[https://coveralls.io/github/dillondrobena/JustPizza?branch=profiling]
-
+{<img src="https://travis-ci.org/dillondrobena/JustPizza.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/dillondrobena/JustPizza]
+{<img src="https://coveralls.io/repos/dillondrobena/JustPizza/badge.svg?branch=master&service=github" alt="Coverage Status" />}[https://coveralls.io/github/dillondrobena/JustPizza?branch=master]
 Its JustPizza...what do you expect?
