@@ -1,73 +1,40 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/dillondrobena/RubymineProjects/JustPizza/test/models/user_test.rb": [
+      "/Users/dillondrobena/RubymineProjects/JustPizza/app/models/user.rb": [
         1,
-        null,
+        3,
         1,
         1,
-        0,
-        null,
-        null,
         1,
-        0,
         null,
         null,
         1,
-        0,
-        0,
+        1,
+        null
+      ],
+      "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/pizza_pages_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/dillondrobena/RubymineProjects/JustPizza/app/controllers/application_controller.rb": [
+        1,
         null,
         null,
         1,
-        0,
-        0,
-        null,
-        null,
+        null
+      ],
+      "/Users/dillondrobena/RubymineProjects/JustPizza/app/helpers/application_helper.rb": [
         1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
+        null
+      ],
+      "/Users/dillondrobena/RubymineProjects/JustPizza/app/helpers/pizza_pages_helper.rb": [
         1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
         null
       ]
     },
-    "timestamp": 1444870898
+    "timestamp": 1444873879
   }
 }
