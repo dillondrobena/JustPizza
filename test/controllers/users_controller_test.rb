@@ -9,7 +9,7 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should get show" do
-    post :show, id: 1
+    post :show, id: @user.id
     assert_response :success
   end
 
