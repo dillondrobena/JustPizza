@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 gem 'rspec'
 gem 'coveralls', require: false
-gem "codeclimate-test-reporter", group: :test, require: nil
+gem 'codeclimate-test-reporter', group: :test, require: nil
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
