@@ -9,7 +9,8 @@ gem 'rspec'
 
 #Coveralls used for test coverage
 gem 'coveralls', require: false
-
+#Dynamic form generation
+gem 'cocoon'
 #Bootstrap for client-side css
 gem 'bootstrap-sass'
 # Use SCSS for stylesheets

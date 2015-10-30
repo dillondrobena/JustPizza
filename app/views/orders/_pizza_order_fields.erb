@@ -1,0 +1,33 @@
+<div class="nested-fields">
+  <fieldset data-role="controlgroup" data-type="horizontal" class="form-inline">
+    <legend>Specialty Pizzas</legend>
+    <% @specials.each do |sp| %>
+        <div class="container">
+          <%= f.label :pizza_id, sp.get_name_and_cost %>
+          <%= f.radio_button :pizza_id, sp.id %>
+          <%= f.hidden_field :pizza_type, :value => :Special %>
+          <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
+          <h5>Toppings:
+          <% sp.pizza.toppings.each do |top| %>
+              <%= top.name + (top == sp.pizza.toppings.last ? "" : ",") %>
+          <% end %>
+          </h5>
+          <hr/>
+        </div>
+    <% end %>
+    <div class="container">
+      <%= f.label "Custom" %>
+      <%= f.radio_button :pizza_id, "Custom", id: "custom_pizza" %>
+      <div id="custom_pizza_fields">
+        <%= f.fields_for :pizza_attributes do |pi| %>
+            <%= render partial: 'custom_pizza', locals: {pi: pi} %>
+        <% end %>
+      </div>
+    </div>
+  </fieldset>
+  <%= f.label :quantity %>
+  <%= f.number_field :quantity, :value => 1, class: "number_field" %>
+  <br/>
+  <%= link_to_remove_association "Delete", f , id: "delete_btn", class: "btn btn-primary" %>
+  <hr/>
+</div>
