@@ -1,0 +1,20 @@
+<% provide(:title, "Register") %>
+<h1>ToppingsController#show</h1>
+<p>Find me in app/views/toppings_controller/show.html.erb</p>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <p>
+      <strong>Name:</strong>
+      <%= @topping.name %>
+    </p>
+
+    <p>
+      <strong>Cost:</strong>
+      <%= @topping.cost %>
+    </p>
+
+    <%= link_to 'Edit', edit_topping_path(@topping) %> |
+    <%= link_to 'Back', toppings_path %>
+
+  </div>
+</div>

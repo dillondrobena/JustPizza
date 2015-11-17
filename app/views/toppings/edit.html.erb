@@ -1,0 +1,21 @@
+<% provide(:title, "Edit " + @topping.name) %>
+<h1>Toppings#edit</h1>
+<p>Find me in app/views/toppings/edit.html.erb</p>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @topping do |t| %>
+        <%= render 'shared/topping_error_messages' %>
+
+        <%= t.label :name %>
+        <%= t.text_field :name, class: 'form-control'%>
+
+        <%= t.label :cost %>
+        <%= t.text_field :cost, class: 'form-control' %>
+
+        <%= t.submit "Update", class: "btn btn-primary" %>
+    <% end %>
+
+    <%= link_to 'Show', @topping %> |
+    <%= link_to 'Back', toppings_path %>
+  </div>
+</div>

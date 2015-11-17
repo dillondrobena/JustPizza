@@ -19,6 +19,10 @@ module SessionsHelper
     not current_user.nil?
   end
 
+  def is_admin?
+    current_user.admin
+  end
+
   def logout
     forget(@current_user)
     session.delete :user_id
@@ -48,6 +52,14 @@ module SessionsHelper
 
   def store_location
     session[:forwarding_url] = request.url if request.get?
+  end
+
+  def check_admin
+    unless is_admin?
+      store_location
+      flash[:danger] = "Only admins can do this!"
+      redirect_to login_path
+    end
   end
 
   def logged_in_user?

@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'toppings/index'
+
+  get 'toppings/new'
+
+  get 'toppings/create'
+
+  get 'toppings/show'
+
+  get 'toppings/edit'
+
+  get 'toppings/update'
+
+  get 'toppings/destroy'
+
   get 'sessions/new'
 
   get 'signup' => 'users#new'
@@ -10,6 +24,7 @@ Rails.application.routes.draw do
 
   resources :users
   resources :orders
+  resources :toppings
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
