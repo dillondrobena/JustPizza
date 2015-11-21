@@ -1,0 +1,22 @@
+<% @orders.each do |order| %>
+    <% order.pizza_orders.each do |pi_order| %>
+        <% if pi_order.pizza_type == "Special" %>
+            <h3><%= pi_order.pizza.pizza.name %></h3><hr/>
+            Crust Type: <%= pi_order.pizza.pizza.crust.name %><br/>
+            Toppings<br/>
+            <% pi_order.pizza.pizza.toppings.each do |topping| %>
+                <%= topping.name %><br/>
+            <% end %>
+        <% else %>
+            <h3>Custom</h3><hr/>
+            Crust Type: <%= pi_order.pizza.crust.name %><br/>
+            Toppings<br/>
+            <% pi_order.pizza.toppings.each do |topping| %>
+                <%= topping.name %><br/>
+            <% end %>
+        <% end %>
+        Quantity: <%= pi_order.quantity %><br/>
+    <% end %>
+    Total: <%= order.cost %><br/>
+    <hr/>
+<% end %>

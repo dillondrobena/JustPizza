@@ -9,4 +9,8 @@ class PizzaOrder < ActiveRecord::Base
     self.pizza = Pizza.new(params)
   end
 
+  def has_pizza?
+    not self.pizza.nil?
+  end
+
 end
