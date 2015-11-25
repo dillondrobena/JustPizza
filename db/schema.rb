@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151030220032) do
+ActiveRecord::Schema.define(version: 20151118194046) do
 
   create_table "crusts", force: :cascade do |t|
     t.string   "name"
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(version: 20151030220032) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "pizza_id"
+    t.string   "pizza_path"
   end
 
   create_table "toppings", force: :cascade do |t|

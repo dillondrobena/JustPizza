@@ -5,6 +5,7 @@
         <div class="container">
           <%= f.label :pizza_id, sp.get_name_and_cost %>
           <%= f.radio_button :pizza_id, sp.id %>
+          <%= image_tag(sp.pizza_path) %>
           <%= f.hidden_field :pizza_type, :value => :Special %>
           <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
           <h5>Toppings:
