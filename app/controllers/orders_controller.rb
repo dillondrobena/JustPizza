@@ -3,6 +3,10 @@ class OrdersController < ApplicationController
   before_filter :users_order?, :only => :show
   skip_before_filter :verify_authenticity_token, :only => :create
 
+  def index
+    @orders = current_user.orders
+  end
+
   def new
     @order = Order.new
     @specials = Special.all
@@ -14,11 +18,12 @@ class OrdersController < ApplicationController
     @order.pizza_orders.each do |order|
       if not order.pizza_id.nil?
         order.pizza_type = "Special"
-        @order.cost += order.pizza.cost unless order.pizza.nil?
-      elsif @order.has_attribute? :pizza
-        @order.cost += 10.99
+        @order.cost += (order.pizza.cost * order.quantity) unless order.pizza.nil?
+      elsif order.has_pizza?
+        order.pizza.name = "Custom"
+        @order.cost += (10.99 * order.quantity)
         order.pizza.toppings.each do |topping|
-          @order.cost += topping.cost
+          @order.cost += (topping.cost * order.quantity)
         end
       end
     end

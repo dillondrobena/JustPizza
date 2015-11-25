@@ -1,7 +1,7 @@
 <% provide(:title, "Toppings") %>
 <h1>Toppings#index</h1>
 <p>Find me in app/views/toppings/index.html.erb</p>
-<h1>New Topping</h1>
+<h1>Toppings</h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <table>
@@ -9,6 +9,7 @@
       <tr>
         <th>Name</th>
         <th>Cost</th>
+        <th>Enabled</th>
         <th colspan="3"></th>
       </tr>
       </thead>
@@ -18,9 +19,9 @@
           <tr>
             <td><%= t.name %></td>
             <td><%= t.cost %></td>
+            <td><%= t.enabled %></td>
             <td><%= link_to 'Show', t , class: "btn btn-primary"%></td>
             <td><%= link_to 'Edit', edit_topping_path(t) , class: "btn btn-primary"%></td>
-            <td><%= link_to 'Destroy', t, method: :delete, data: { confirm: 'Are you sure?' } , class: "btn btn-primary"%></td>
           </tr>
       <% end %>
       </tbody>

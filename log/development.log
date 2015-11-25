@@ -1,0 +1,1652 @@
+
+
+Started GET "/" for ::1 at 2015-11-18 11:24:58 -0600
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.14.0) lib/puma/server.rb:541:in `handle_request'
+  puma (2.14.0) lib/puma/server.rb:388:in `process_client'
+  puma (2.14.0) lib/puma/server.rb:270:in `block in run'
+  puma (2.14.0) lib/puma/thread_pool.rb:106:in `call'
+  puma (2.14.0) lib/puma/thread_pool.rb:106:in `block in spawn_thread'
+
+
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (70.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (5.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (161.4ms)
+  [1m[36m (5.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20151014222742)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151014222742"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to AddIndexToUsersEmail (20151014224830)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151014224830"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to AddPasswordDigestToUsers (20151014230210)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  ALTER TABLE "users" ADD "password_digest" varchar
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151014230210"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Migrating to AddRememberDigestToUsers (20151015214051)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "users" ADD "remember_digest" varchar
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151015214051"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Migrating to AddAdminToUsers (20151015232607)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "users" ADD "admin" boolean
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151015232607"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+Migrating to CreateToppings (20151021215242)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "toppings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151021215242"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Migrating to CreatePizzas (20151021215540)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "pizzas" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151021215540"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+Migrating to AddCostToTopping (20151021215604)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "toppings" ADD "cost" int
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151021215604"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to CreateCrusts (20151021215638)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "crusts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151021215638"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to CreateJoinTablePizzaTopping (20151021220146)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "pizzas_toppings" ("pizza_id" integer NOT NULL, "topping_id" integer NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151021220146"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to AddCrustToPizza (20151021220610)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "pizzas" ADD "crust_id" integer
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_pizzas_on_crust_id" ON "pizzas" ("crust_id")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151021220610"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateOrders (20151021223133)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151021223133"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePizzaOrder (20151021225053)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "pizza_orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pizza_id" integer, "order_id" integer) [0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_pizza_orders_on_pizza_id" ON "pizza_orders" ("pizza_id")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pizza_orders_on_pizza_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pizza_orders_on_pizza_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_pizza_orders_on_order_id" ON "pizza_orders" ("order_id")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151021225053"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+Migrating to AddUserToOrder (20151021225207)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "orders" ADD "user_id" integer
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_orders_on_user_id" ON "orders" ("user_id")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151021225207"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Migrating to AddQuantityToPizzaOrder (20151021225355)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "pizza_orders" ADD "quantity" int[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151021225355"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddCostToOrder (20151021225434)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "orders" ADD "cost" int[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151021225434"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateSpecials (20151027205558)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "specials" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "cost" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151027205558"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Migrating to AddPizzaToSpecial (20151027205956)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "specials" ADD "pizza_id" integer[0m
+  [1m[35m (0.4ms)[0m  CREATE  INDEX "index_specials_on_pizza_id" ON "specials" ("pizza_id")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151027205956"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Migrating to RemovePizzaFromPizzaOrder (20151027210358)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "apizza_orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "pizza_id" integer, "order_id" integer, "quantity" integer) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pizza_orders_on_order_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pizza_orders_on_order_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pizza_orders_on_pizza_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pizza_orders_on_pizza_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "tindex_apizza_orders_on_order_id" ON "apizza_orders" ("order_id")[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "tindex_apizza_orders_on_pizza_id" ON "apizza_orders" ("pizza_id")
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "pizza_orders"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "pizza_orders"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "pizza_orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "order_id" integer, "quantity" integer) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_apizza_orders_on_pizza_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_apizza_orders_on_pizza_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_apizza_orders_on_order_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_apizza_orders_on_order_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_pizza_orders_on_order_id" ON "pizza_orders" ("order_id")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "apizza_orders"[0m
+  [1m[35m (0.8ms)[0m  DROP TABLE "apizza_orders"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151027210358"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Migrating to AddPolymorphicPizzaToPizzaOrder (20151027210616)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "pizza_orders" ADD "pizza_id" integer
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "pizza_orders" ADD "pizza_type" varchar[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151027210616"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Migrating to ChangeCostToFloatOnSpecial (20151027210838)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "aspecials" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "cost" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pizza_id" integer) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_specials_on_pizza_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_specials_on_pizza_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "tindex_aspecials_on_pizza_id" ON "aspecials" ("pizza_id")[0m
+  [1m[35m (0.5ms)[0m  SELECT * FROM "specials"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "specials"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "specials" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "cost" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pizza_id" integer) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_aspecials_on_pizza_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_aspecials_on_pizza_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_specials_on_pizza_id" ON "specials" ("pizza_id")
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "aspecials"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aspecials"
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151027210838"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+Migrating to ChangePizzaRelationshipOnSpecial (20151027211954)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "aspecials" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "cost" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pizza_id" integer) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_specials_on_pizza_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_specials_on_pizza_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "tindex_aspecials_on_pizza_id" ON "aspecials" ("pizza_id")
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "specials"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "specials"
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "specials" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "cost" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_aspecials_on_pizza_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_aspecials_on_pizza_id' AND type='index'
+
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "aspecials"[0m
+  [1m[35m (0.2ms)[0m  DROP TABLE "aspecials"
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "specials" ADD "pizza_id" integer[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151027211954"]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Migrating to ChangeCostOnOrdersToFloat (20151027212355)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "aorders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "cost" integer) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "tindex_aorders_on_user_id" ON "aorders" ("user_id")[0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "orders"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "orders"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "cost" float) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_aorders_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_aorders_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_orders_on_user_id" ON "orders" ("user_id")
+  [1m[36m (0.5ms)[0m  [1mSELECT * FROM "aorders"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aorders"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151027212355"]]
+  [1m[35m (3.1ms)[0m  commit transaction
+Migrating to ChangeCostToFloatOnTopping (20151029222935)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TEMPORARY TABLE "atoppings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "cost" integer) 
+  [1m[36m (0.4ms)[0m  [1mSELECT * FROM "toppings"[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "toppings"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "toppings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "cost" float) [0m
+  [1m[35m (0.0ms)[0m  SELECT * FROM "atoppings"
+  [1m[36m (0.1ms)[0m  [1mDROP TABLE "atoppings"[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151029222935"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Migrating to AddDefaultValueToCostInOrder (20151030220032)
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TEMPORARY TABLE "aorders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "cost" float) [0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "tindex_aorders_on_user_id" ON "aorders" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "orders"
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "orders"[0m
+  [1m[35m (0.1ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer, "cost" float DEFAULT 0.0) 
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='tindex_aorders_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='tindex_aorders_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE  INDEX "index_orders_on_user_id" ON "orders" ("user_id")
+  [1m[36m (0.0ms)[0m  [1mSELECT * FROM "aorders"[0m
+  [1m[35m (0.1ms)[0m  DROP TABLE "aorders"
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151030220032"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pizza_orders_on_order_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pizza_orders_on_order_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pizzas_on_crust_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pizzas_on_crust_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for ::1 at 2015-11-18 11:25:43 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.erb (5.7ms)
+Completed 200 OK in 10646ms (Views: 10633.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/orders.self-6c6ca0d8d74b97e4f57deed308b25f9e6d8c5beb9d73bec6b211cd1f5aa25843.css?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/pizza_pages.self-6f5da7e418a51750d44ebcf1eaf1eb131986298efacb0c5dcdad74f86e07c66b.css?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/toppings.self-5bb30f99accfc24d260e28a473372d0866e431b5d1926be144b61dad5c6e8b7d.css?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/users_controller.self-5a6e9f5d851f3c25fd29b922b33bb990b21517dab5fe73425f689e08438ea679.css?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/orders.self-bd8e148d6aab5fd781526fb5e77deadb634906b1c7f51ddf7f1e688aa6150580.js?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:25:54 -0600
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "toppings" ("name", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "Jalapenos"], ["cost", 0.5], ["created_at", "2015-11-18 17:33:02.337073"], ["updated_at", "2015-11-18 17:33:02.337073"]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for ::1 at 2015-11-18 11:33:35 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.erb (6.7ms)
+Completed 200 OK in 382ms (Views: 372.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-11-18 11:33:39 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (37.8ms)
+  Rendered layouts/_header.erb (1.2ms)
+Completed 200 OK in 182ms (Views: 180.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-11-18 11:34:42 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nK8/TCG4dD1H7XTWH+ghh+Qdi7PmbgX/OQNRXXp4B2fcYx57gxOpoqGBiIJF9dldHFUkcCWxjptAh8nSvFg/zw==", "session"=>{"email"=>"chuck@fakemail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "chuck@fakemail.com"]]
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 196ms (Views: 138.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for ::1 at 2015-11-18 11:35:18 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"goFfbIScytrPGTQBivGPxTSI3m0SQh5vTlDXCmYNp9vCTX5bJjcXRSl1yFXQ7HcfzMBxrtGdlQs31E+FoC2fcw==", "session"=>{"email"=>"chuck86@fakemail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1[0m  [["email", "chuck86@fakemail.com"]]
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 130ms (Views: 129.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/new" for ::1 at 2015-11-18 11:35:20 -0600
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.erb (2.2ms)
+  Rendered users/new.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 150ms (Views: 135.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for ::1 at 2015-11-18 11:35:41 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oiZLHtsBbjeHy4J1dTHLJlbUYl0kV/sJI/f348GS1HHi6mopeaqzqGGnfiEvLDP8rpzNnueIcG1ac29sB7Ls2Q==", "user"=>{"name"=>"Chuck", "email"=>"chuck@fakemail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('chuck@fakemail.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_error_messages.erb (0.6ms)
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 271ms (Views: 126.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for ::1 at 2015-11-18 11:35:54 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PRbAbNZ1qSQ8GJXTf6SFUcJ8U8eErGfuAUcHeYp3B7N92uFbdN50u9p0aYcluX2LOjT8BEdz7Ip4w5/2TFc/Gw==", "user"=>{"name"=>"Chuck", "email"=>"chuck@fakemail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('chuck@fakemail.com') LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Chuck"], ["email", "chuck@fakemail.com"], ["password_digest", "$2a$10$bhtIObynwW6a0x5TkIU7WOzfZ8jaAZA4Jx4Gubvn.Rgh/.cuZbWt6"], ["created_at", "2015-11-18 17:35:54.331028"], ["updated_at", "2015-11-18 17:35:54.331028"]]
+  [1m[35m (5.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_digest", "$2a$10$HcPwBdpTcGtzMo0h8sLdWeDi6bxz8yFmyy2ZMarGwrKZ04EPgadw."], ["updated_at", "2015-11-18 17:35:54.414704"], ["id", 1]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 189ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-11-18 11:35:54 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.erb (1.6ms)
+Completed 200 OK in 160ms (Views: 158.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 11:35:58 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.5ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mCrust Load (0.2ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (26.0ms)
+  Rendered orders/_pizza_order_fields.erb (47.9ms)
+  Rendered orders/new.html.erb within layouts/application (73.3ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 222ms (Views: 206.1ms | ActiveRecord: 1.5ms)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "toppings" ("name", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pepperonis"], ["cost", 0.5], ["created_at", "2015-11-18 17:37:37.732497"], ["updated_at", "2015-11-18 17:37:37.732497"]]
+  [1m[35m (5.9ms)[0m  commit transaction
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 11:37:41 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.8ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mCrust Load (0.2ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (6.6ms)
+  Rendered orders/_pizza_order_fields.erb (12.0ms)
+  Rendered orders/new.html.erb within layouts/application (22.1ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 156ms (Views: 153.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/orders.self-6c6ca0d8d74b97e4f57deed308b25f9e6d8c5beb9d73bec6b211cd1f5aa25843.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/pizza_pages.self-6f5da7e418a51750d44ebcf1eaf1eb131986298efacb0c5dcdad74f86e07c66b.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/toppings.self-5bb30f99accfc24d260e28a473372d0866e431b5d1926be144b61dad5c6e8b7d.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/users_controller.self-5a6e9f5d851f3c25fd29b922b33bb990b21517dab5fe73425f689e08438ea679.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/orders.self-bd8e148d6aab5fd781526fb5e77deadb634906b1c7f51ddf7f1e688aa6150580.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-11-18 11:37:41 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 11:37:56 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (4.8ms)
+  Rendered orders/_pizza_order_fields.erb (8.1ms)
+  Rendered orders/new.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 148ms (Views: 146.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/orders.self-6c6ca0d8d74b97e4f57deed308b25f9e6d8c5beb9d73bec6b211cd1f5aa25843.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/pizza_pages.self-6f5da7e418a51750d44ebcf1eaf1eb131986298efacb0c5dcdad74f86e07c66b.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/toppings.self-5bb30f99accfc24d260e28a473372d0866e431b5d1926be144b61dad5c6e8b7d.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/users_controller.self-5a6e9f5d851f3c25fd29b922b33bb990b21517dab5fe73425f689e08438ea679.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/orders.self-bd8e148d6aab5fd781526fb5e77deadb634906b1c7f51ddf7f1e688aa6150580.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-11-18 11:37:56 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 11:38:01 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (4.7ms)
+  Rendered orders/_pizza_order_fields.erb (9.1ms)
+  Rendered orders/new.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 151.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1/edit" for ::1 at 2015-11-18 11:38:35 -0600
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_error_messages.erb (0.5ms)
+  Rendered users/edit.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 173ms (Views: 171.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 11:38:38 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (5.3ms)
+  Rendered orders/_pizza_order_fields.erb (9.3ms)
+  Rendered orders/new.html.erb within layouts/application (15.4ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 156ms (Views: 154.0ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "crusts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Turbo Garlic"], ["created_at", "2015-11-18 17:46:32.820409"], ["updated_at", "2015-11-18 17:46:32.820409"]]
+  [1m[36m (5.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "crusts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Wheat"], ["created_at", "2015-11-18 17:47:01.662087"], ["updated_at", "2015-11-18 17:47:01.662087"]]
+  [1m[35m (5.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "crusts" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "Sourdough"], ["created_at", "2015-11-18 17:47:30.533809"], ["updated_at", "2015-11-18 17:47:30.533809"]]
+  [1m[36m (6.2ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for ::1 at 2015-11-18 11:47:39 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.erb (1.4ms)
+Completed 200 OK in 138ms (Views: 137.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 11:47:41 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mCrust Load (0.2ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (13.7ms)
+  Rendered orders/_pizza_order_fields.erb (18.0ms)
+  Rendered orders/new.html.erb within layouts/application (23.9ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 160ms (Views: 157.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 12:00:28 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.erb (27.7ms)
+Completed 200 OK in 562ms (Views: 549.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 12:00:29 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.erb (1.2ms)
+Completed 200 OK in 149ms (Views: 148.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 12:00:32 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (2.5ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mCrust Load (0.2ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.4ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (33.6ms)
+  Rendered orders/_pizza_order_fields.erb (78.2ms)
+  Rendered orders/new.html.erb within layouts/application (123.1ms)
+  Rendered layouts/_header.erb (1.6ms)
+Completed 200 OK in 267ms (Views: 253.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 12:03:11 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.erb (1.3ms)
+Completed 200 OK in 148ms (Views: 146.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 12:03:12 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (11.7ms)
+  Rendered orders/_pizza_order_fields.erb (17.1ms)
+  Rendered orders/new.html.erb within layouts/application (23.3ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 153ms (Views: 150.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 12:58:41 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (3.2ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.erb (64.4ms)
+Completed 200 OK in 879ms (Views: 853.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 12:58:45 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (5.3ms)
+  [1m[35mSpecial Load (0.4ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mCrust Load (0.4ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.4ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (60.4ms)
+  Rendered orders/_pizza_order_fields.erb (109.4ms)
+  Rendered orders/new.html.erb within layouts/application (175.1ms)
+  Rendered layouts/_header.erb (2.5ms)
+Completed 200 OK in 503ms (Views: 460.1ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 13:01:37 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.erb (1.1ms)
+Completed 200 OK in 158ms (Views: 157.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:01:38 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (11.2ms)
+  Rendered orders/_pizza_order_fields.erb (16.3ms)
+  Rendered orders/new.html.erb within layouts/application (22.8ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 164ms (Views: 162.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 13:02:58 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.erb (1.1ms)
+Completed 200 OK in 134ms (Views: 133.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:02:59 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.3ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (11.6ms)
+  Rendered orders/_pizza_order_fields.erb (67.7ms)
+  Rendered orders/new.html.erb within layouts/application (74.1ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 223ms (Views: 221.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-18 13:03:00 -0600
+  [1m[36mCrust Load (5.4ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mCrust Load (0.3ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."name" = ? LIMIT 1  [["name", "Turbo Garlic"]]
+  [1m[36mCrust Load (0.2ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."name" = ? LIMIT 1[0m  [["name", "Turbo Garlic"]]
+  [1m[35mPizza Load (0.2ms)[0m  SELECT "pizzas".* FROM "pizzas"
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pizzas" ("crust_id", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["crust_id", 1], ["name", "Pepperoni"], ["created_at", "2015-11-18 19:19:40.995783"], ["updated_at", "2015-11-18 19:19:40.995783"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "specials" ("cost", "pizza_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cost", 13.0], ["pizza_id", 1], ["created_at", "2015-11-18 19:19:40.998316"], ["updated_at", "2015-11-18 19:19:40.998316"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+
+
+Started GET "/" for ::1 at 2015-11-18 13:20:29 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.erb (1.4ms)
+Completed 200 OK in 253ms (Views: 251.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:20:31 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.2ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.2ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (12.0ms)
+  Rendered orders/_pizza_order_fields.erb (92.8ms)
+  Rendered orders/new.html.erb within layouts/application (107.4ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 280ms (Views: 276.5ms | ActiveRecord: 1.7ms)
+  [1m[35mTopping Load (0.2ms)[0m  SELECT  "toppings".* FROM "toppings" WHERE "toppings"."name" = ? LIMIT 1  [["name", "Pepperonis"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "pizzas_toppings" ("pizza_id", "topping_id") VALUES (?, ?)  [["pizza_id", 1], ["topping_id", 2]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+
+
+Started GET "/" for ::1 at 2015-11-18 13:24:50 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.erb (1.1ms)
+Completed 200 OK in 179ms (Views: 178.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:24:51 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.2ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (12.9ms)
+  Rendered orders/_pizza_order_fields.erb (23.8ms)
+  Rendered orders/new.html.erb within layouts/application (32.3ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 204ms (Views: 201.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:25:13 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.4ms)
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (10.7ms)
+  Rendered orders/_pizza_order_fields.erb (21.1ms)
+  Rendered orders/new.html.erb within layouts/application (27.4ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 177ms (Views: 174.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:26:44 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (11.3ms)
+  Rendered orders/_pizza_order_fields.erb (20.9ms)
+  Rendered orders/new.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 159ms (Views: 157.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/orders.self-6c6ca0d8d74b97e4f57deed308b25f9e6d8c5beb9d73bec6b211cd1f5aa25843.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/pizza_pages.self-6f5da7e418a51750d44ebcf1eaf1eb131986298efacb0c5dcdad74f86e07c66b.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/toppings.self-5bb30f99accfc24d260e28a473372d0866e431b5d1926be144b61dad5c6e8b7d.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/users_controller.self-5a6e9f5d851f3c25fd29b922b33bb990b21517dab5fe73425f689e08438ea679.css?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/orders.self-bd8e148d6aab5fd781526fb5e77deadb634906b1c7f51ddf7f1e688aa6150580.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-18 13:26:45 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:27:51 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (11.4ms)
+  Rendered orders/_pizza_order_fields.erb (20.1ms)
+  Rendered orders/new.html.erb within layouts/application (24.6ms)
+  Rendered layouts/_header.erb (0.8ms)
+Completed 200 OK in 161ms (Views: 159.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/orders.self-6c6ca0d8d74b97e4f57deed308b25f9e6d8c5beb9d73bec6b211cd1f5aa25843.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/pizza_pages.self-6f5da7e418a51750d44ebcf1eaf1eb131986298efacb0c5dcdad74f86e07c66b.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/toppings.self-5bb30f99accfc24d260e28a473372d0866e431b5d1926be144b61dad5c6e8b7d.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/users_controller.self-5a6e9f5d851f3c25fd29b922b33bb990b21517dab5fe73425f689e08438ea679.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/orders.self-bd8e148d6aab5fd781526fb5e77deadb634906b1c7f51ddf7f1e688aa6150580.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-11-18 13:27:51 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-18 13:27:52 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:28:36 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.3ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (10.4ms)
+  Rendered orders/_pizza_order_fields.erb (19.1ms)
+  Rendered orders/new.html.erb within layouts/application (23.7ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 155ms (Views: 152.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/orders.self-6c6ca0d8d74b97e4f57deed308b25f9e6d8c5beb9d73bec6b211cd1f5aa25843.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/pizza_pages.self-6f5da7e418a51750d44ebcf1eaf1eb131986298efacb0c5dcdad74f86e07c66b.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/toppings.self-5bb30f99accfc24d260e28a473372d0866e431b5d1926be144b61dad5c6e8b7d.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/users_controller.self-5a6e9f5d851f3c25fd29b922b33bb990b21517dab5fe73425f689e08438ea679.css?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/orders.self-bd8e148d6aab5fd781526fb5e77deadb634906b1c7f51ddf7f1e688aa6150580.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-18 13:28:36 -0600
+
+
+Started POST "/orders" for ::1 at 2015-11-18 13:29:39 -0600
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UGDUCoMgc4Jqsz4HhNFVDYFVwf02yAOvnFAVYV2tPBMQrPU9IYuuHYzfwlPezK3XeR1uPvUXiMvl1I3um40Euw==", "order"=>{"pizza_orders_attributes"=>{"1447874916767"=>{"pizza_id"=>"1", "pizza_type"=>"Special", "quantity"=>"1", "_destroy"=>"false"}}}, "commit"=>"Add To Cart"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: pizza_type
+  [1m[35mSpecial Load (0.3ms)[0m  SELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "orders" ("user_id", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["cost", 13.0], ["created_at", "2015-11-18 19:29:40.021382"], ["updated_at", "2015-11-18 19:29:40.021382"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "pizza_orders" ("quantity", "pizza_id", "pizza_type", "order_id") VALUES (?, ?, ?, ?)  [["quantity", 1], ["pizza_id", 1], ["pizza_type", "Special"], ["order_id", 1]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/1
+Completed 302 Found in 29ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/orders/1" for ::1 at 2015-11-18 13:29:40 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 147ms (Views: 142.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 13:31:38 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.erb (1.1ms)
+Completed 200 OK in 137ms (Views: 136.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:33:00 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (12.0ms)
+  Rendered orders/_pizza_order_fields.erb (22.1ms)
+  Rendered orders/new.html.erb within layouts/application (28.8ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 161ms (Views: 158.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:33:28 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (13.3ms)
+  Rendered orders/_pizza_order_fields.erb (22.2ms)
+  Rendered orders/new.html.erb within layouts/application (28.4ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 168ms (Views: 165.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:33:41 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (12.0ms)
+  Rendered orders/_pizza_order_fields.erb (20.8ms)
+  Rendered orders/new.html.erb within layouts/application (26.3ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 162ms (Views: 159.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:33:49 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.5ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (11.3ms)
+  Rendered orders/_pizza_order_fields.erb (29.4ms)
+  Rendered orders/new.html.erb within layouts/application (35.8ms)
+  Rendered layouts/_header.erb (0.4ms)
+Completed 200 OK in 172ms (Views: 169.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:33:59 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.2ms)[0m  [1mSELECT "crusts".* FROM "crusts"[0m
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered orders/_custom_pizza.erb (12.4ms)
+  Rendered orders/_pizza_order_fields.erb (20.6ms)
+  Rendered orders/new.html.erb within layouts/application (25.3ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 168ms (Views: 165.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/orders" for ::1 at 2015-11-18 13:34:03 -0600
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ssJeLI2fSexjx2902UeEYf7yDpdpFdVDa6dXCkQPxfTyDn8bLzSUc4WrkyCDWny7BrqhVKrKXicSI8+Fgi/9XA==", "order"=>{"pizza_orders_attributes"=>{"1447875239819"=>{"pizza_id"=>"1", "pizza_type"=>"Special", "quantity"=>"1", "_destroy"=>"false"}}}, "commit"=>"Add To Cart"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: pizza_type
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "orders" ("user_id", "cost", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["cost", 13.0], ["created_at", "2015-11-18 19:34:03.462985"], ["updated_at", "2015-11-18 19:34:03.462985"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "pizza_orders" ("quantity", "pizza_id", "pizza_type", "order_id") VALUES (?, ?, ?, ?)  [["quantity", 1], ["pizza_id", 1], ["pizza_type", "Special"], ["order_id", 2]]
+  [1m[36m (6.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 14ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/orders/2" for ::1 at 2015-11-18 13:34:03 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 135ms (Views: 133.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/2" for ::1 at 2015-11-18 13:35:45 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.erb (57.9ms)
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `show_user_orders' for #<#<Class:0x007fa61a1665d0>:0x007fa614240948>):
+    12:             <li><%= link_to "Logout", logout_path, method: :delete %></li>
+    13:         <% end %>
+    14:         <% if logged_in? %>
+    15:             <li><%= link_to "Cart", show_user_orders(current_user) %></li>
+    16:             <li><%= link_to "Edit", edit_user_path(current_user) %></li>
+    17:         <% end %>
+    18:         <% if logged_in? and is_admin? %>
+  app/views/layouts/_header.erb:15:in `_app_views_layouts__header_erb__2972956272606742560_70175690172840'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___972699823261518856_70175649217700'
+
+
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.1ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.7ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (77.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (172.1ms)
+
+
+Started GET "/orders/2" for ::1 at 2015-11-18 13:36:07 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.erb (1.9ms)
+Completed 200 OK in 143ms (Views: 140.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.self-6c6ca0d8d74b97e4f57deed308b25f9e6d8c5beb9d73bec6b211cd1f5aa25843.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/pizza_pages.self-6f5da7e418a51750d44ebcf1eaf1eb131986298efacb0c5dcdad74f86e07c66b.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/toppings.self-5bb30f99accfc24d260e28a473372d0866e431b5d1926be144b61dad5c6e8b7d.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/users_controller.self-5a6e9f5d851f3c25fd29b922b33bb990b21517dab5fe73425f689e08438ea679.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/orders.self-bd8e148d6aab5fd781526fb5e77deadb634906b1c7f51ddf7f1e688aa6150580.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-11-18 13:36:08 -0600
+
+
+Started GET "/orders/2" for ::1 at 2015-11-18 13:36:14 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.erb (1.4ms)
+Completed 200 OK in 142ms (Views: 140.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/2" for ::1 at 2015-11-18 13:36:16 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.erb (0.9ms)
+Completed 200 OK in 134ms (Views: 132.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders/2" for ::1 at 2015-11-18 13:36:16 -0600
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 147ms (Views: 144.7ms | ActiveRecord: 0.2ms)
+  [1m[36mSpecial Load (0.6ms)[0m  [1mSELECT  "specials".* FROM "specials" WHERE "specials"."name" = 'Pepperoni' LIMIT 1[0m
+SQLite3::SQLException: no such column: specials.name: SELECT  "specials".* FROM "specials" WHERE "specials"."name" = 'Pepperoni' LIMIT 1
+  [1m[36mSpecial Load (2.6ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[36mSpecial Load (1.6ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPizzaPathToSpecials (20151118194046)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "specials" ADD "pizza_path" varchar[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151118194046"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_orders_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pizza_orders_on_order_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pizza_orders_on_order_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_pizzas_on_crust_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_pizzas_on_crust_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mSpecial Load (1.8ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mSpecial Load (0.9ms)[0m  SELECT  "specials".* FROM "specials" WHERE "specials"."name" = 'Pepperoni' LIMIT 1
+SQLite3::SQLException: no such column: specials.name: SELECT  "specials".* FROM "specials" WHERE "specials"."name" = 'Pepperoni' LIMIT 1
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  UPDATE "specials" SET "pizza_path" = ?, "updated_at" = ? WHERE "specials"."id" = ?  [["pizza_path", "pepperoni.png"], ["updated_at", "2015-11-18 19:46:13.813290"], ["id", 1]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:46:26 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.3ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mPizza Load (0.2ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/_pizza_order_fields.erb (22.7ms)
+  Rendered orders/new.html.erb within layouts/application (35.7ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 1.9ms)
+
+ActionView::Template::Error (undefined method `pizza_picture' for #<Special:0x007fa618547ac0>):
+     5:         <div class="container">
+     6:           <%= f.label :pizza_id, sp.get_name_and_cost %>
+     7:           <%= f.radio_button :pizza_id, sp.id %>
+     8:           <%= image_tag(sp.pizza_picture) %>
+     9:           <%= f.hidden_field :pizza_type, :value => :Special %>
+    10:           <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
+    11:           <h5>Toppings:
+  app/views/orders/_pizza_order_fields.erb:8:in `block in _app_views_orders__pizza_order_fields_erb__213094862809827324_70175671592860'
+  app/views/orders/_pizza_order_fields.erb:4:in `_app_views_orders__pizza_order_fields_erb__213094862809827324_70175671592860'
+  app/views/orders/new.html.erb:9:in `block in _app_views_orders_new_html_erb__3125940061051154583_70175689483200'
+  app/views/orders/new.html.erb:3:in `_app_views_orders_new_html_erb__3125940061051154583_70175689483200'
+
+
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.3ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (69.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (153.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:46:26 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT "specials".* FROM "specials"[0m
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered orders/_pizza_order_fields.erb (5.8ms)
+  Rendered orders/new.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `pizza_picture' for #<Special:0x007fa617c0f980>):
+     5:         <div class="container">
+     6:           <%= f.label :pizza_id, sp.get_name_and_cost %>
+     7:           <%= f.radio_button :pizza_id, sp.id %>
+     8:           <%= image_tag(sp.pizza_picture) %>
+     9:           <%= f.hidden_field :pizza_type, :value => :Special %>
+    10:           <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
+    11:           <h5>Toppings:
+  app/views/orders/_pizza_order_fields.erb:8:in `block in _app_views_orders__pizza_order_fields_erb__213094862809827324_70175670019620'
+  app/views/orders/_pizza_order_fields.erb:4:in `_app_views_orders__pizza_order_fields_erb__213094862809827324_70175670019620'
+  app/views/orders/new.html.erb:9:in `block in _app_views_orders_new_html_erb__3125940061051154583_70175632795000'
+  app/views/orders/new.html.erb:3:in `_app_views_orders_new_html_erb__3125940061051154583_70175632795000'
+
+
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (84.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (72.9ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (151.6ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:47:58 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/_pizza_order_fields.erb (5.7ms)
+  Rendered orders/new.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `pizza_picture' for #<Special:0x007fa61572f020>):
+     5:         <div class="container">
+     6:           <%= f.label :pizza_id, sp.get_name_and_cost %>
+     7:           <%= f.radio_button :pizza_id, sp.id %>
+     8:           <%= image_tag(sp.pizza_picture) %>
+     9:           <%= f.hidden_field :pizza_type, :value => :Special %>
+    10:           <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
+    11:           <h5>Toppings:
+  app/views/orders/_pizza_order_fields.erb:8:in `block in _app_views_orders__pizza_order_fields_erb__213094862809827324_70175670019620'
+  app/views/orders/_pizza_order_fields.erb:4:in `_app_views_orders__pizza_order_fields_erb__213094862809827324_70175670019620'
+  app/views/orders/new.html.erb:9:in `block in _app_views_orders_new_html_erb__3125940061051154583_70175632795000'
+  app/views/orders/new.html.erb:3:in `_app_views_orders_new_html_erb__3125940061051154583_70175632795000'
+
+
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (111.3ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (75.0ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/quantumian/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (178.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 13:48:16 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.erb (2.2ms)
+Completed 200 OK in 249ms (Views: 247.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-18 13:48:18 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials"
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.2ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts"
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings"[0m
+  Rendered orders/_custom_pizza.erb (10.9ms)
+  Rendered orders/_pizza_order_fields.erb (94.2ms)
+  Rendered orders/new.html.erb within layouts/application (101.6ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 248ms (Views: 245.0ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-11-18 13:48:47 -0600
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FKBypx0UKDBw1PDM+OcdWC//q32kFxvZXaDZsxIJtH1UbFOQv7/1r5a4DJii+uWC17cEvmfIkL0kJEE81CmM1Q=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_digest", nil], ["updated_at", "2015-11-18 19:48:47.159492"], ["id", 1]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/" for ::1 at 2015-11-18 13:48:47 -0600
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.erb (4.1ms)
+Completed 200 OK in 136ms (Views: 135.9ms | ActiveRecord: 0.0ms)

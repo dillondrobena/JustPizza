@@ -1,7 +1,7 @@
 <h5>Crust Type</h5>
 <table class="table">
   <tr>
-    <% Crust.all.each do |crust| %>
+    <% Crust.where(enabled: true).each do |crust| %>
         <td>
           <%= pi.label :crust, crust.name %>
           <%= pi.radio_button :crust_id, crust.id %>
@@ -12,7 +12,7 @@
 <h5>Toppings</h5>
 <table class="table">
   <tr>
-    <% Topping.all.each do |topping| %>
+    <% Topping.where(enabled: true).each do |topping| %>
         <td>
           <%= pi.label :toppings, topping.get_name_and_cost %>
           <%= pi.check_box :topping_ids,{:multiple => true}, topping.id, nil%>

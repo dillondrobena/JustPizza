@@ -1,0 +1,40 @@
+<% provide(:title, "Register") %>
+<h1>SpecialsController#show</h1>
+<p>Find me in app/views/specials_controller/show.html.erb</p>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <p>
+      <strong>Name:</strong>
+      <%= @special.pizza.name %>
+    </p>
+
+    <p>
+      <strong>Crust:</strong>
+      <%= @special.pizza.crust.name %>
+    </p>
+
+    <p>
+      <strong>Toppings:</strong>
+      <% @special.pizza.toppings.each do |topping| %>
+        <%= topping.name %>
+          <% if topping != @special.pizza.toppings.last %>
+          ,
+          <% end %>
+      <% end %>
+    </p>
+
+    <p>
+      <strong>Cost:</strong>
+      <%= @special.cost %>
+    </p>
+
+    <p>
+      <strong>Enabled:</strong>
+      <%= @special.enabled %>
+    </p>
+
+    <%= link_to 'Edit', edit_special_path(@special) %> |
+    <%= link_to 'Back', specials_path %>
+
+  </div>
+</div>
