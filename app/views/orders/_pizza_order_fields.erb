@@ -3,16 +3,28 @@
     <legend>Specialty Pizzas</legend>
     <% @specials.where(enabled: true).each do |sp| %>
         <div class="container">
-          <%= f.label :pizza_id, sp.get_name_and_cost %>
-          <%= f.radio_button :pizza_id, sp.id %>
-          <%= image_tag(sp.pizza_path) %>
-          <%= f.hidden_field :pizza_type, :value => :Special %>
-          <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
-          <h5>Toppings:
-          <% sp.pizza.toppings.each do |top| %>
-              <%= top.name + (top == sp.pizza.toppings.last ? "" : ",") %>
-          <% end %>
-          </h5>
+          <div class="row">
+            <div class="col-sm-1">
+              <%= f.label :pizza_id, sp.get_name_and_cost %>
+              <%= f.radio_button :pizza_id, sp.id %>
+            </div>
+            <div class="col-sm-5">
+              <div class="row">
+                <div class="col-sm-6">
+                  <%= f.hidden_field :pizza_type, :value => :Special %>
+                  <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
+                  <h5>Toppings:
+                  <% sp.pizza.toppings.each do |top| %>
+                      <%= top.name + (top == sp.pizza.toppings.last ? "" : ",") %>
+                  <% end %>
+                  </h5>
+                </div>
+                <div class="col-sm-5">
+                  <%= image_tag(sp.pizza_path) %>
+                </div>
+              </div>
+            </div>
+          </div>
           <hr/>
         </div>
     <% end %>
