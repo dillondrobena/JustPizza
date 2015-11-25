@@ -16,13 +16,21 @@
     <p>
       <strong>Toppings:</strong>
       <% @special.pizza.toppings.each do |topping| %>
-        <%= topping.name %><br/>
+        <%= topping.name %>
+          <% if topping != @special.pizza.toppings.last %>
+          ,
+          <% end %>
       <% end %>
     </p>
 
     <p>
       <strong>Cost:</strong>
       <%= @special.cost %>
+    </p>
+
+    <p>
+      <strong>Enabled:</strong>
+      <%= @special.enabled %>
     </p>
 
     <%= link_to 'Edit', edit_special_path(@special) %> |

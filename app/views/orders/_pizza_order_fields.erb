@@ -1,7 +1,7 @@
 <div class="nested-fields">
   <fieldset data-role="controlgroup" data-type="horizontal" class="form-inline">
     <legend>Specialty Pizzas</legend>
-    <% @specials.each do |sp| %>
+    <% @specials.where(enabled: true).each do |sp| %>
         <div class="container">
           <%= f.label :pizza_id, sp.get_name_and_cost %>
           <%= f.radio_button :pizza_id, sp.id %>

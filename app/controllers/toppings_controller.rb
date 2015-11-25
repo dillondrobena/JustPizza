@@ -43,6 +43,6 @@ class ToppingsController < ApplicationController
   end
 
   def topping_params
-    params.require(:topping).permit(:name, :cost)
+    params.require(:topping).permit(:name, :cost, :enabled)
   end
 end

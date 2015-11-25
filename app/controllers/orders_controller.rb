@@ -20,6 +20,7 @@ class OrdersController < ApplicationController
         order.pizza_type = "Special"
         @order.cost += (order.pizza.cost * order.quantity) unless order.pizza.nil?
       elsif order.has_pizza?
+        order.pizza.name = "Custom"
         @order.cost += (10.99 * order.quantity)
         order.pizza.toppings.each do |topping|
           @order.cost += (topping.cost * order.quantity)

@@ -1,6 +1,6 @@
 <%= form_for @special do |t| %>
     <%= render 'shared/special_error_messages' %>
-    <%= t.fields_for :pizza do |pi| %>
+    <%= t.fields_for :pizza_attributes do |pi| %>
         <%= pi.label :name %>
         <%= pi.text_field :name, class: 'form-control' %>
         <table class="table">

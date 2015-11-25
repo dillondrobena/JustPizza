@@ -1,4 +1,4 @@
-<% provide(:title, "Register") %>
+<% provide(:title, "Toppings") %>
 <h1>ToppingsController#show</h1>
 <p>Find me in app/views/toppings_controller/show.html.erb</p>
 <div class="row">
@@ -11,6 +11,11 @@
     <p>
       <strong>Cost:</strong>
       <%= @topping.cost %>
+    </p>
+
+    <p>
+      <strong>Enabled:</strong>
+      <%= @topping.enabled %>
     </p>
 
     <%= link_to 'Edit', edit_topping_path(@topping) %> |

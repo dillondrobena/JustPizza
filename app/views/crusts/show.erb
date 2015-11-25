@@ -1,0 +1,20 @@
+<% provide(:title, "Crusts") %>
+<h1>CrustsController#show</h1>
+<p>Find me in app/views/crusts_controller/show.html.erb</p>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <p>
+      <strong>Name:</strong>
+      <%= @crust.name %>
+    </p>
+
+    <p>
+      <strong>Enabled:</strong>
+      <%= @crust.enabled %>
+    </p>
+
+    <%= link_to 'Edit', edit_crust_path(@crust) %> |
+    <%= link_to 'Back', crusts_path %>
+
+  </div>
+</div>

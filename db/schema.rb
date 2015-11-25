@@ -11,12 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151030220032) do
+ActiveRecord::Schema.define(version: 20151125010748) do
 
   create_table "crusts", force: :cascade do |t|
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.boolean  "enabled",    default: true
   end
 
   create_table "orders", force: :cascade do |t|
@@ -53,16 +54,18 @@ ActiveRecord::Schema.define(version: 20151030220032) do
 
   create_table "specials", force: :cascade do |t|
     t.float    "cost"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
     t.integer  "pizza_id"
+    t.boolean  "enabled",    default: true
   end
 
   create_table "toppings", force: :cascade do |t|
     t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
     t.float    "cost"
+    t.boolean  "enabled",    default: true
   end
 
   create_table "users", force: :cascade do |t|

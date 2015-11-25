@@ -6,6 +6,19 @@ class SpecialsController < ApplicationController
     @specials = Special.all
   end
 
+  def new
+    @special = Special.new
+  end
+
+  def create
+    @special = Special.create(special_params)
+    if @special.save
+      redirect_to @special
+    else
+      render 'new'
+    end
+  end
+
   def show
   end
 
@@ -28,6 +41,6 @@ class SpecialsController < ApplicationController
   end
 
   def special_params
-    params.require(:special).permit(:cost, :pizza_attributes => [:name, :crust_id, :topping_ids => []])
+    params.require(:special).permit(:cost, :enabled, :pizza_attributes => [:name, :crust_id, :topping_ids => []])
   end
 end
