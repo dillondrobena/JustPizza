@@ -7,3 +7,8 @@
   margin-top: 45px;
   @include box_sizing;
 }
+
+body.homepage {
+  background-image: url('homepage.jpg');
+  background-size: 100%;
+}
