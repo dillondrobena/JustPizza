@@ -1,22 +1,22 @@
 <div class="nested-fields">
   <fieldset data-role="controlgroup" data-type="horizontal" class="form-inline">
-    <legend>Specialty Pizzas</legend>
+    <legend class="btn-primary">Specialty Pizzas</legend>
     <% @specials.where(enabled: true).each do |sp| %>
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-1">
+            <div class="col-sm-2">
               <%= f.label :pizza_id, sp.get_name_and_cost %>
-              <%= f.radio_button :pizza_id, sp.id %>
+              <%= f.radio_button :pizza_id, sp.id%>
             </div>
             <div class="col-sm-5">
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 pizza-info">
                   <%= f.hidden_field :pizza_type, :value => :Special %>
                   <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
                   <h5>Toppings:
-                  <% sp.pizza.toppings.each do |top| %>
-                      <%= top.name + (top == sp.pizza.toppings.last ? "" : ",") %>
-                  <% end %>
+                    <% sp.pizza.toppings.each do |top| %>
+                        <%= top.name + (top == sp.pizza.toppings.last ? "" : ",") %>
+                    <% end %>
                   </h5>
                 </div>
                 <div class="col-sm-5">
@@ -25,10 +25,10 @@
               </div>
             </div>
           </div>
-          <hr/>
         </div>
     <% end %>
-    <div class="container">
+    <legend class="btn-primary">Custom Pizzas</legend>
+    <div class="container-fluid">
       <%= f.label "Custom" %>
       <%= f.radio_button :pizza_id, "Custom", class: "custom_pizza" %>
       <div id="custom_pizza_fields">
@@ -38,9 +38,13 @@
       </div>
     </div>
   </fieldset>
-  <%= f.label :quantity %>
-  <%= f.number_field :quantity, :value => 1, class: "number_field quantity"%>
-  <br/>
-  <%= link_to_remove_association "Delete", f , id: "delete_btn", class: "btn btn-primary deletion" %>
   <hr/>
+  <div class="container-fluid">
+    <%= f.label :quantity %>
+    <%= f.number_field :quantity, :value => 1, class: "number_field quantity"%>
+  </div>
+  <hr/>
+  <div class="container-fluid">
+    <%= link_to_remove_association "Delete", f , id: "delete_btn", class: "btn btn-primary deletion" %>
+  </div>
 </div>

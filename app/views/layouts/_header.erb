@@ -10,11 +10,9 @@
             <li><%= link_to "Register", new_user_path %></li>
         <% else %>
             <li><%= link_to "Order History", orders_path %></li>
-            <li><%= link_to "Logout", logout_path, method: :delete %></li>
-        <% end %>
-        <% if logged_in? %>
             <li><%= link_to "Cart" %></li>
             <li><%= link_to "Edit", edit_user_path(current_user) %></li>
+            <li><%= link_to "Logout", logout_path, method: :delete %></li>
         <% end %>
         <% if logged_in? and is_admin? %>
             <li class="dropdown">
