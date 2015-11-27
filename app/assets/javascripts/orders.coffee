@@ -29,7 +29,7 @@ $(document).ready ->
       adjustForDeletion($(this))
     $(insertedItem).find('#custom_pizza_fields').hide()
     $(insertedItem).find(':radio').change ->
-      pizzaDiv = if $(this).hasClass('custom_pizza') then $(this) else $(this).parent().siblings('div:has(.custom_pizza)')
+      pizzaDiv = if $(this).hasClass('custom_pizza') then $(this) else $(this).closest('.nested-fields').find('div:has(.custom_pizza)').find(':radio.custom_pizza')
       if $(pizzaDiv).is(":checked")
         $(pizzaDiv).parent().find('#custom_pizza_fields').show()
       else
@@ -59,7 +59,7 @@ calculateTotal = (arg) ->
 adjustTotal = (arg) ->
   arrayIndex = $('.nested-fields').index($(arg).closest('.nested-fields'))
   orderTotal = $('#order_total')
-  radio = $(arg).parent().find(':radio:checked')
+  radio = $(arg).closest('.nested-fields').find(':radio:checked')
   localLabel = $(radio).siblings("label").text()
   if radio.length != undefined and radio.length > 0
     if localLabel.indexOf("Custom") != 0
