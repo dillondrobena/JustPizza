@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two|Italiana);
+
+ * {
+   font-family: 'Lobster Two', sans-serif;
+ }
+
+ legend {
+   text-align: center;
+ }
+
+ .past-order {
+   text-align: center;
+ }
+
+ .top-legend {
+   border-top-left-radius: 21px;
+   border-top-right-radius: 21px;
+ }

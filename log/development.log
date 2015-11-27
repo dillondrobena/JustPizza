@@ -27029,3 +27029,3092 @@ Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47
 
 
 Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:05:15 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:12:14 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (27.0ms)
+  Rendered layouts/_header.erb (1.5ms)
+Completed 200 OK in 2462ms (Views: 2452.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/partials.self-50de7d63998f58457b333c4b8f94cee01cc18044147992033126ce7b8ef48a02.css?body=1" for ::1 at 2015-11-27 14:12:17 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:12:18 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:12:21 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.erb (2.1ms)
+Completed 200 OK in 180ms (Views: 179.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-27 14:15:55 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 2140ms (Views: 2139.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/pizza_pages.self-c5c6806333af1b06376137240587df7f91b912956e198876b85a73827bfa6371.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/application.self-c2ed5054b8dc14d179e54e792abf13f435ade75728f52c74040a5633672f6348.css?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:15:57 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:17:02 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.erb (0.8ms)
+Completed 200 OK in 383ms (Views: 382.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/pizza_pages.self-c5c6806333af1b06376137240587df7f91b912956e198876b85a73827bfa6371.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/application.self-1b2465fca6ee9bd7e8201ab31991ed005eb0775258c505ada220bd56fc40b048.css?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:17:03 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:17:19 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.erb (0.9ms)
+Completed 200 OK in 2072ms (Views: 2071.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/partials.self-f16e9ab6202f5c6b088bda10d68e3cf7284c69e61bee90a4be8671fe16a6d42b.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/pizza_pages.self-c5c6806333af1b06376137240587df7f91b912956e198876b85a73827bfa6371.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/application.self-1b2465fca6ee9bd7e8201ab31991ed005eb0775258c505ada220bd56fc40b048.css?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:17:21 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:18:22 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.erb (0.8ms)
+Completed 200 OK in 2180ms (Views: 2179.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:18:24 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:18:24 -0600
+
+
+Started GET "/assets/partials.self-f16e9ab6202f5c6b088bda10d68e3cf7284c69e61bee90a4be8671fe16a6d42b.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/pizza_pages.self-7278496584e1a42da85e0aae04eae5ebafd7023cf38d903a68cdabd3208d8d87.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/application.self-c2ed5054b8dc14d179e54e792abf13f435ade75728f52c74040a5633672f6348.css?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:18:25 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:19:44 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 2219ms (Views: 2218.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/partials.self-f16e9ab6202f5c6b088bda10d68e3cf7284c69e61bee90a4be8671fe16a6d42b.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/pizza_pages.self-41dc58f9230d27a1b04b098519eb6d92b2b70a5b79c971fb956e97611f3614ba.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/application.self-c2ed5054b8dc14d179e54e792abf13f435ade75728f52c74040a5633672f6348.css?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:19:46 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:19:47 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:22:55 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (2.6ms)
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.2ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.2ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.2ms)
+  Rendered orders/_pizza_order_fields.erb (88.1ms)
+  Rendered orders/new.html.erb within layouts/application (118.5ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 300ms (Views: 284.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-11-27 14:22:56 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:22:58 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 187ms (Views: 186.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:22:59 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.7ms)
+  Rendered orders/_pizza_order_fields.erb (22.7ms)
+  Rendered orders/new.html.erb within layouts/application (29.1ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 208ms (Views: 206.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/orders" for ::1 at 2015-11-27 14:22:59 -0600
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mPizzaOrder Load (0.2ms)[0m  SELECT "pizza_orders".* FROM "pizza_orders" WHERE "pizza_orders"."order_id" = ?  [["order_id", 3]]
+  [1m[36mSpecial Load (0.3ms)[0m  [1mSELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  Rendered orders/index.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 196ms (Views: 192.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2015-11-27 14:23:02 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.erb (0.9ms)
+Completed 200 OK in 174ms (Views: 172.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-27 14:23:03 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 179ms (Views: 178.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-11-27 14:23:47 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 2279ms (Views: 2278.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:23:49 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:23:49 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:23:49 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:23:49 -0600
+
+
+Started GET "/assets/pizza_pages.self-5abd3e21caddc673c7392df786003654708bdb9709ecba8768b42f2df745be67.css?body=1" for ::1 at 2015-11-27 14:23:49 -0600
+
+
+Started GET "/assets/partials.self-f16e9ab6202f5c6b088bda10d68e3cf7284c69e61bee90a4be8671fe16a6d42b.css?body=1" for ::1 at 2015-11-27 14:23:49 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:23:49 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/application.self-c2ed5054b8dc14d179e54e792abf13f435ade75728f52c74040a5633672f6348.css?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:23:50 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:24:16 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.erb (1.1ms)
+Completed 200 OK in 2243ms (Views: 2241.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/partials.self-f16e9ab6202f5c6b088bda10d68e3cf7284c69e61bee90a4be8671fe16a6d42b.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/pizza_pages.self-84f95920b746210530081b9703e69f4dab674e8393e1a47ef763e6b552200ad1.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/application.self-c2ed5054b8dc14d179e54e792abf13f435ade75728f52c74040a5633672f6348.css?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:24:19 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:25:53 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 2179ms (Views: 2178.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/pizza_pages.self-0c54f87de8791fa6530868b316760d7f6d4725d741ae36032049df4eafe3ceea.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/application.self-c2ed5054b8dc14d179e54e792abf13f435ade75728f52c74040a5633672f6348.css?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:25:55 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:25:56 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:25:56 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:27:16 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 2243ms (Views: 2241.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:27:18 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/application.self-bb7b3c28e0a3eb4ec6c0db42e15e1d8a5c0dc80afd74912e1de2cd48bcb06b0b.css?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:27:19 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:29:29 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.7ms)
+  Rendered orders/_pizza_order_fields.erb (24.4ms)
+  Rendered orders/new.html.erb within layouts/application (31.3ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 205ms (Views: 202.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:31:55 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.4ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.0ms)
+  Rendered orders/_pizza_order_fields.erb (23.5ms)
+  Rendered orders/new.html.erb within layouts/application (29.4ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 320ms (Views: 318.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:31:55 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:31:55 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:31:55 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:31:55 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:31:55 -0600
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:31:55 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/application.self-45239ca870571950a200fd637140284f33ed19934d908eaa1ba31182b6f87215.css?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:31:56 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:32:23 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (12.5ms)
+  Rendered orders/_pizza_order_fields.erb (20.7ms)
+  Rendered orders/new.html.erb within layouts/application (25.6ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 313ms (Views: 310.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/application.self-22fb17052da799be19640612bd329fe7ed361ae9bbcbc3accbba4dba68a0e006.css?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:32:24 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:33:32 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.6ms)
+  Rendered orders/_pizza_order_fields.erb (22.9ms)
+  Rendered orders/new.html.erb within layouts/application (27.6ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 328ms (Views: 325.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/orders.self-93b67e559924a5890696b1e804445a53770d5a61a4e2227288a9fc68f88e265a.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/application.self-43a743457a822618f184953186ea890a2928844a66b04c3df58ceed782567685.css?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:33 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:33:34 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:35:10 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.6ms)
+  Rendered orders/_pizza_order_fields.erb (22.7ms)
+  Rendered orders/new.html.erb within layouts/application (27.8ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 342ms (Views: 339.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/orders.self-1d8ae2ee761b7fd8f9e5299586d9a3f4dcc3e3d23392662dacb0a313072de2c6.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/application.self-43a743457a822618f184953186ea890a2928844a66b04c3df58ceed782567685.css?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:35:11 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:37:12 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.8ms)
+  Rendered orders/_pizza_order_fields.erb (21.7ms)
+  Rendered orders/new.html.erb within layouts/application (26.5ms)
+  Rendered layouts/_header.erb (0.9ms)
+Completed 200 OK in 346ms (Views: 344.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/orders.self-c5d956ec79de20d051149b598d0cc2d403ce3fec4ce03fda8295ad287353feee.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/application.self-43a743457a822618f184953186ea890a2928844a66b04c3df58ceed782567685.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:37:13 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:37:33 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.1ms)
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.2ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.2ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.2ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (23.3ms)
+  Rendered orders/_pizza_order_fields.erb (39.7ms)
+  Rendered orders/new.html.erb within layouts/application (48.5ms)
+  Rendered layouts/_header.erb (1.0ms)
+Completed 200 OK in 589ms (Views: 585.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/application.self-43a743457a822618f184953186ea890a2928844a66b04c3df58ceed782567685.css?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:37:34 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:37:35 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:38:08 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.2ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.5ms)
+  Rendered orders/_pizza_order_fields.erb (25.5ms)
+  Rendered orders/new.html.erb within layouts/application (30.7ms)
+  Rendered layouts/_header.erb (1.1ms)
+Completed 200 OK in 351ms (Views: 348.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/application.self-d7a614478032cb74cf4efded1597b83084e02b087e748d3b7c911173981dd62b.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:38:09 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:38:33 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (10.2ms)
+  Rendered orders/_pizza_order_fields.erb (18.9ms)
+  Rendered orders/new.html.erb within layouts/application (23.9ms)
+  Rendered layouts/_header.erb (0.8ms)
+Completed 200 OK in 320ms (Views: 318.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:38:33 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/application.self-681530f64b0f800bb4f97c1dc16fbcc1deb73950a84c2fabe280406a91850651.css?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:38:34 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:39:10 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.0ms)
+  Rendered orders/_pizza_order_fields.erb (21.5ms)
+  Rendered orders/new.html.erb within layouts/application (26.4ms)
+  Rendered layouts/_header.erb (0.5ms)
+Completed 200 OK in 316ms (Views: 314.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/application.self-93c226ec846db4a9164e4ea05900d9fc22aa5cd149136a86c9aa556e7e37438d.css?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:39:11 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:40:40 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.6ms)
+  Rendered orders/_pizza_order_fields.erb (28.8ms)
+  Rendered orders/new.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 323ms (Views: 321.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/application.self-de4abe5112335c847fd1aa3d5f23889eada158d32d8bca1b50df2d7e15a47245.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:40:41 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:41:32 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.1ms)
+  Rendered orders/_pizza_order_fields.erb (21.5ms)
+  Rendered orders/new.html.erb within layouts/application (26.9ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 210ms (Views: 208.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/application.self-43a743457a822618f184953186ea890a2928844a66b04c3df58ceed782567685.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:41:33 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:41:51 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (12.7ms)
+  Rendered orders/_pizza_order_fields.erb (30.0ms)
+  Rendered orders/new.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 222ms (Views: 220.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/application.self-d7a614478032cb74cf4efded1597b83084e02b087e748d3b7c911173981dd62b.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:41:52 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:43:00 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (11.4ms)
+  Rendered orders/_pizza_order_fields.erb (20.4ms)
+  Rendered orders/new.html.erb within layouts/application (25.2ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 324ms (Views: 321.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:43:00 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:43:00 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/application.self-b538ede853762baa4975768be290af530ae4f4247b3301bf5576eae53e699caf.css?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:43:01 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:44:13 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.3ms)
+  Rendered orders/_pizza_order_fields.erb (23.7ms)
+  Rendered orders/new.html.erb within layouts/application (35.5ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 325ms (Views: 323.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/application.self-7fb403f8451c537d4d1bb9232f1910d340bbed045e422bc9f8c73d3114b2d4ac.css?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:44:14 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:44:20 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (12.4ms)
+  Rendered orders/_pizza_order_fields.erb (21.8ms)
+  Rendered orders/new.html.erb within layouts/application (26.7ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 319ms (Views: 317.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/application.self-82fb15461083555d85ac3a197564c25fb42e3158f7cbd316bb6e1a767e3caf04.css?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:44:21 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:44:28 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.3ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.6ms)
+  Rendered orders/_pizza_order_fields.erb (22.6ms)
+  Rendered orders/new.html.erb within layouts/application (27.3ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 310ms (Views: 307.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/application.self-12fd877f1c759627b3432597bd26aaccf2880a653d664fd047e49d8544429013.css?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:44:29 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:44:37 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.4ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (11.8ms)
+  Rendered orders/_pizza_order_fields.erb (20.9ms)
+  Rendered orders/new.html.erb within layouts/application (25.8ms)
+  Rendered layouts/_header.erb (1.0ms)
+Completed 200 OK in 309ms (Views: 306.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/application.self-4b2fb9ac5ea43d42359635c05dc9c40e985c2d268359f306d40918b0c428b6fb.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:44:37 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:44:38 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:44:47 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.3ms)
+  Rendered orders/_pizza_order_fields.erb (21.8ms)
+  Rendered orders/new.html.erb within layouts/application (26.7ms)
+  Rendered layouts/_header.erb (0.8ms)
+Completed 200 OK in 316ms (Views: 314.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/application.self-66df8adb6301d425be688c9069550b1c3f056b722a9f0204f1109cb7f03b35c8.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:44:47 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:44:48 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:48:21 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (14.0ms)
+  Rendered orders/_pizza_order_fields.erb (23.5ms)
+  Rendered orders/new.html.erb within layouts/application (28.9ms)
+  Rendered layouts/_header.erb (1.0ms)
+Completed 200 OK in 351ms (Views: 349.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/application.self-b426bc5c3ce3cda3fb3927e30bef301302c3c0f29fdc21185e7a217e3b8533db.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/assets/pepperoni-1156f4d4c58d3fe242baa00211d0594937858d8317985e33a56547d1efd5a7b9.png" for ::1 at 2015-11-27 14:48:22 -0600
+
+
+Started GET "/" for ::1 at 2015-11-27 14:48:28 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.erb (0.9ms)
+Completed 200 OK in 186ms (Views: 185.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/homepage.jpg" for ::1 at 2015-11-27 14:48:28 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:48:30 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.0ms)
+  Rendered orders/_pizza_order_fields.erb (24.0ms)
+  Rendered orders/new.html.erb within layouts/application (30.1ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 217ms (Views: 215.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/orders" for ::1 at 2015-11-27 14:48:31 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 2]]
+  [1m[36mPizzaOrder Load (0.1ms)[0m  [1mSELECT "pizza_orders".* FROM "pizza_orders" WHERE "pizza_orders"."order_id" = ?[0m  [["order_id", 3]]
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  Rendered orders/index.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.erb (1.7ms)
+Completed 200 OK in 246ms (Views: 243.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/orders" for ::1 at 2015-11-27 14:48:41 -0600
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mPizzaOrder Load (0.1ms)[0m  SELECT "pizza_orders".* FROM "pizza_orders" WHERE "pizza_orders"."order_id" = ?  [["order_id", 3]]
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  Rendered orders/index.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.erb (0.8ms)
+Completed 200 OK in 197ms (Views: 194.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2015-11-27 14:48:42 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 185ms (Views: 184.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users/2/edit" for ::1 at 2015-11-27 14:48:45 -0600
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered shared/_error_messages.erb (0.6ms)
+  Rendered users/edit.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.erb (0.8ms)
+Completed 200 OK in 201ms (Views: 199.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-11-27 14:48:53 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.erb (1.1ms)
+Completed 200 OK in 196ms (Views: 195.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:48:55 -0600
+Processing by OrdersController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (11.8ms)
+  Rendered orders/_pizza_order_fields.erb (21.7ms)
+  Rendered orders/new.html.erb within layouts/application (27.7ms)
+  Rendered layouts/_header.erb (1.0ms)
+Completed 200 OK in 221ms (Views: 218.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/orders" for ::1 at 2015-11-27 14:49:04 -0600
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 2]]
+  [1m[36mPizzaOrder Load (0.1ms)[0m  [1mSELECT "pizza_orders".* FROM "pizza_orders" WHERE "pizza_orders"."order_id" = ?[0m  [["order_id", 3]]
+  [1m[35mSpecial Load (0.1ms)[0m  SELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  Rendered orders/index.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 195ms (Views: 193.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/orders" for ::1 at 2015-11-27 14:50:48 -0600
+Processing by OrdersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35mPizzaOrder Load (0.1ms)[0m  SELECT "pizza_orders".* FROM "pizza_orders" WHERE "pizza_orders"."order_id" = ?  [["order_id", 3]]
+  [1m[36mSpecial Load (0.1ms)[0m  [1mSELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  Rendered orders/index.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.erb (0.6ms)
+Completed 200 OK in 283ms (Views: 281.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/crusts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/custom.self-c41a9e5bef217a393d9534931b184d794aea5b74922eca8f85255217c6fd1802.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/orders.self-26b7e92ce9521dca206cd8acc2c8ca4438f670f200d15f4e53872ac40ebcb68b.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/pizza_pages.self-b6684ad2641398ca9809c22451db02c7e274af3ce65ca698ffd300fc4fbfa35b.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/partials.self-fc1009ed0d1aca1a5690bf7622dd9fb65d9cae1cdff4de358e4963cc6b850671.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/application.self-7ad84f8087e95710beccf1dd4375e7e7829c8b9560570a59ebb5501936731a49.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/toppings.self-169513ced1b81d62ea41baf369f14f6223bf6da88f87de525995dd656d5c16ed.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/specials.self-7cec0e35afab54be2654f3ee4e6940b67512efd8b133880400435d139b5fb318.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/users_controller.self-ffa765aa82e772b3bb2339b7fc072817a0a4c0d78d0896bad422edeb3f3d2dbd.css?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-27 14:50:48 -0600
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for ::1 at 2015-11-27 14:50:49 -0600
+
+
+Started GET "/orders/new" for ::1 at 2015-11-27 14:50:59 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (0.0ms)
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?[0m  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (13.0ms)
+  Rendered orders/_pizza_order_fields.erb (24.7ms)
+  Rendered orders/new.html.erb within layouts/application (32.2ms)
+  Rendered layouts/_header.erb (0.7ms)
+Completed 200 OK in 225ms (Views: 222.5ms | ActiveRecord: 0.9ms)
