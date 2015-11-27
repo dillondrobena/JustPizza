@@ -3,16 +3,48 @@
     <%= link_to "JustPizza", root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",   root_path %></li>
-        <li><%= link_to "Order", new_order_path %></li>
+        <li>
+          <%= link_to root_path do %>
+            <span class="glyphicon glyphicon-home" data-toggle="tooltip" data-placement="bottom" title="Go to the Homepage"></span>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to new_order_path do %>
+            <span class="glyphicon glyphicon-shopping-cart" data-toggle="tooltip" data-placement="bottom" title="Order Some Pizzas"></span>
+          <% end %>
+        </li>
         <% if not logged_in? %>
-            <li><%= link_to "Login", login_path %></li>
-            <li><%= link_to "Register", new_user_path %></li>
+            <li>
+              <%= link_to new_user_path do %>
+                <span class="glyphicon glyphicon-user" data-toggle="tooltip" data-placement="bottom" title="Make An Account"></span>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to login_path do %>
+                <span class="glyphicon glyphicon-log-in" data-toggle="tooltip" data-placement="bottom" title="Login"></span>
+              <% end %>
+            </li>
         <% else %>
-            <li><%= link_to "Order History", orders_path %></li>
-            <li><%= link_to "Cart" %></li>
-            <li><%= link_to "Edit", edit_user_path(current_user) %></li>
-            <li><%= link_to "Logout", logout_path, method: :delete %></li>
+            <li>
+              <%= link_to orders_path do %>
+                <span class="glyphicon glyphicon-list-alt" data-toggle="tooltip" data-placement="bottom" title="See Your Old Orders"></span>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to root_path do %>
+                <span class="glyphicon glyphicon-credit-card" data-toggle="tooltip" data-placement="bottom" title="See Your Current Order"></span>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to edit_user_path(current_user) do %>
+                <span class="glyphicon glyphicon-edit" data-toggle="tooltip" data-placement="bottom" title="Edit Your Account"></span>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to logout_path, method: :delete do %>
+                <span class="glyphicon glyphicon-log-out" data-toggle="tooltip" data-placement="bottom" title="Logout"></span>
+              <% end %>
+            </li>
         <% end %>
         <% if logged_in? and is_admin? %>
             <li class="dropdown">

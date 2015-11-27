@@ -43,7 +43,7 @@
     <%= f.label :quantity %>
     <%= f.number_field :quantity, :value => 1, class: "number_field quantity"%>
   </div>
-  <hr/>
+  <hr id="delete-btn-mark"/>
   <div class="container-fluid">
     <%= link_to_remove_association "Delete", f , id: "delete_btn", class: "btn btn-primary deletion" %>
   </div>

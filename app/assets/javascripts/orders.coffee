@@ -1,6 +1,7 @@
 addedPrice = []
 $(document).ready ->
   $('#add_btn').click() if not $('#error_explanation').length
+  $('#delete-btn-mark').remove()
   $('#delete_btn').remove()
   $('#custom_pizza_fields').hide()
   $(':radio').click ->
