@@ -1,3 +1,7 @@
 <body class="homepage">
-  <h1>Welcome to our Pizza Site</h1>
+  <% if not logged_in? %>
+    <h1>Welcome to our Pizza Site</h1>
+  <% else %>
+    <h1>Welcome Back!!!</h1>
+  <% end %>
 </body>
