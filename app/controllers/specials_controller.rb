@@ -41,6 +41,6 @@ class SpecialsController < ApplicationController
   end
 
   def special_params
-    params.require(:special).permit(:cost, :enabled, :pizza_attributes => [:name, :crust_id, :topping_ids => []])
+    params.require(:special).permit(:cost, :enabled, :pizza_path, :pizza_attributes => [:name, :crust_id, :topping_ids => []])
   end
 end
