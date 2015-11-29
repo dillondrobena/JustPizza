@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
+  get 'cart' => 'carts#index'
+
   get 'sessions/new'
 
   get 'signup' => 'users#new'
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
   delete 'logout' => 'sessions#destroy'
+  post 'place_order' => 'carts#confirm'
 
   root 'pizza_pages#index'
 

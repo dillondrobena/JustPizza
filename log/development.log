@@ -30118,6 +30118,7 @@ Processing by OrdersController#new as HTML
   Rendered orders/new.html.erb within layouts/application (32.2ms)
   Rendered layouts/_header.erb (0.7ms)
 Completed 200 OK in 225ms (Views: 222.5ms | ActiveRecord: 0.9ms)
+<<<<<<< HEAD
 
 
 Started GET "/" for ::1 at 2015-11-27 14:55:54 -0600
@@ -37689,3 +37690,57 @@ Completed 200 OK in 164ms (Views: 163.5ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/background-for-login-page.jpeg" for ::1 at 2015-11-29 13:50:45 -0600
+=======
+>>>>>>> e32482e7f0d1b6f35f4e1887dbebb9d5073d379f
+
+
+Started GET "/login" for ::1 at 2015-11-29 13:53:53 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (96.5ms)
+  Rendered layouts/_header.erb (5.9ms)
+Completed 200 OK in 2690ms (Views: 2667.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-29 13:53:57 -0600
+
+
+Started GET "/assets/carts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-11-29 13:53:57 -0600
+
+
+Started GET "/assets/background-for-login-page.jpeg" for ::1 at 2015-11-29 13:53:57 -0600
+
+
+Started POST "/login" for ::1 at 2015-11-29 13:54:09 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yr4aunIv91ZaNtNqmrckweSntaGeSNqtb3RGWyAIVBJlzzMQqa3YtJJSFCpmqUGioBSON+y/8BKik43KHcNYiA==", "session"=>{"email"=>"pepperoni@pizza.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "pepperoni@pizza.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 153ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/users/2" for ::1 at 2015-11-29 13:54:10 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_header.erb (1.9ms)
+Completed 200 OK in 192ms (Views: 190.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart" for ::1 at 2015-11-29 13:54:13 -0600
+Processing by CartsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ? AND "orders"."progress" = ?  [["user_id", 2], ["progress", 0]]
+  [1m[36m (0.2ms)[0m  [1mSELECT SUM("orders"."cost") FROM "orders" WHERE "orders"."user_id" = ? AND "orders"."progress" = ?[0m  [["user_id", 2], ["progress", 0]]
+  [1m[35mPizzaOrder Load (0.2ms)[0m  SELECT "pizza_orders".* FROM "pizza_orders" WHERE "pizza_orders"."order_id" = ?  [["order_id", 3]]
+  [1m[36mSpecial Load (0.2ms)[0m  [1mSELECT  "specials".* FROM "specials" WHERE "specials"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCrust Load (0.1ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 1]]
+  Rendered carts/index.html.erb within layouts/application (135.0ms)
+  Rendered layouts/_header.erb (1.4ms)
+Completed 200 OK in 448ms (Views: 309.8ms | ActiveRecord: 3.0ms)
