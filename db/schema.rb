@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151125010748) do
+ActiveRecord::Schema.define(version: 20151129173113) do
 
   create_table "crusts", force: :cascade do |t|
     t.string   "name"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20151125010748) do
     t.datetime "updated_at",               null: false
     t.integer  "user_id"
     t.float    "cost",       default: 0.0
+    t.integer  "progress",   default: 0
   end
 
   add_index "orders", ["user_id"], name: "index_orders_on_user_id"

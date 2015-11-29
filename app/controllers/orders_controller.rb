@@ -4,7 +4,7 @@ class OrdersController < ApplicationController
   skip_before_filter :verify_authenticity_token, :only => :create
 
   def index
-    @orders = current_user.orders
+    @orders = current_user.orders.where(progress: 1)
   end
 
   def new
@@ -28,7 +28,7 @@ class OrdersController < ApplicationController
       end
     end
     if @order.save
-      redirect_to @order
+      redirect_to cart_path
     else
       @specials = Special.all
       render 'new'
@@ -36,6 +36,12 @@ class OrdersController < ApplicationController
   end
 
   def show
+  end
+
+  def destroy
+    @order = Order.find(params[:id])
+    @order.destroy
+    redirect_to cart_path
   end
 
   private
