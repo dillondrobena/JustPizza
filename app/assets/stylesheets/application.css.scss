@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-@import url(https://fonts.googleapis.com/css?family=Lobster+Two|Italiana);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two|Italiana|Montserrat|Roboto+Slab|Bitter);
 
  .navbar, .nested-fields, .btn, .past-order, h1 {
    font-family: 'Lobster Two', sans-serif;
@@ -34,4 +34,56 @@
 
  .box-shadow--6dp {
      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2)
+ }
+
+ .homepage-msg {
+   color: #F7FE2E;
+   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+ }
+
+ .signup-page {
+   background-image: url("background-for-signup-page.jpg");
+ }
+
+ .login-page {
+   background-image: url("background-for-login-page.jpeg");
+ }
+
+ .edit-page {
+   background-image: url("background-for-edit-page.jpg");
+ }
+
+ .login-area, .signup-area, .edit-area {
+   background-color: white;
+   padding: 20px;
+   border-radius: 8px;
+   border: solid black 1px;
+ }
+
+ #login-page-msg, #signup-page-msg, #edit-page-msg {
+   color: #F7FE2E;
+   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+ }
+
+ .alert {
+   font-family: "Montserrat", sans-serif;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+ }
+
+ .error-cause {
+   font-family: "Bitter", sans-serif;
+   font-weight: bold;
+   color: black;
+ }
+
+ .error-group {
+   list-style-position: inside;
+   background-color: white;
+   border-radius: 5px;
+ }
+
+ #error_explanation {
+   text-align: center;
  }
