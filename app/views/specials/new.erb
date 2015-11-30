@@ -30,7 +30,7 @@
     <%= t.text_field :cost, id: "cost", class: 'form-control' %>
 
     <%= t.label :pizza_path %>
-    <%= t.text_field :pizza_path %>
+    <%= t.collection_select :pizza_path, @images, :to_s, :to_s %>
 
     <%= t.label :enabled %>
     <%= t.check_box :enabled %>

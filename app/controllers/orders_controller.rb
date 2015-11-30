@@ -1,6 +1,6 @@
 class OrdersController < ApplicationController
   before_filter :logged_in_user?
-  before_filter :users_order?, :only => :show
+  before_filter :users_order?, only: [:destroy]
   skip_before_filter :verify_authenticity_token, :only => :create
 
   def index
@@ -33,9 +33,6 @@ class OrdersController < ApplicationController
       @specials = Special.all
       render 'new'
     end
-  end
-
-  def show
   end
 
   def destroy
