@@ -7,16 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= favicon_link_tag %>
 <div class="container">
   <%=render 'layouts/header' %>
   <% flash.each do |message_type, message| %>
       <div class="alert alert-<%= message_type %>"><%= message %></div>
   <% end %>
   <%= yield %>
-  <!--Render Foot when we get it -->
-
-  <!--end-->
   <%= debug(params) if Rails.env.development? %>
 </div>
+<%=render 'layouts/footer' %>
 </body>
 </html>
