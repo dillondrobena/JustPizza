@@ -1,39 +1,44 @@
-<%= form_for @special do |t| %>
-    <%= render 'shared/special_error_messages' %>
-    <%= t.fields_for :pizza_attributes do |pi| %>
-        <%= pi.label :name %>
-        <%= pi.text_field :name, class: 'form-control' %>
-        <table class="table">
-          <tr>
-            <h4>Crust Type</h4>
-            <% Crust.where(enabled: true).each do |crust| %>
-                <td>
-                  <%= pi.label :crust, crust.name %>
-                  <%= pi.radio_button :crust_id, crust.id%>
-                </td>
-            <% end %>
-          </tr>
-        </table>
-        <h5>Toppings</h5>
-        <table class="table">
-          <tr>
-            <% Topping.where(enabled: true).each do |topping| %>
-                <td>
-                  <%= pi.label :toppings, topping.get_name_and_cost %>
-                  <%= pi.check_box :topping_ids,{:multiple => true}, topping.id, nil%>
-                </td>
-            <% end %>
-          </tr>
-        </table>
-    <% end %>
-    <%= t.label :cost %>
-    <%= t.text_field :cost, id: "cost", class: 'form-control' %>
+<body class="new-special-page">
+  <h1 class="header-msg">New Special</h1>
+  <div class="new-special-area">
+  <%= form_for @special do |t| %>
+      <%= render 'shared/special_error_messages' %>
+      <%= t.fields_for :pizza_attributes do |pi| %>
+          <%= pi.label :name %>
+          <%= pi.text_field :name, class: 'form-control' %>
+          <table class="table">
+            <tr>
+              <h4>Crust Type</h4>
+              <% Crust.where(enabled: true).each do |crust| %>
+                  <td>
+                    <%= pi.label :crust, crust.name %>
+                    <%= pi.radio_button :crust_id, crust.id%>
+                  </td>
+              <% end %>
+            </tr>
+          </table>
+          <h5>Toppings</h5>
+          <table class="table">
+            <tr>
+              <% Topping.where(enabled: true).each do |topping| %>
+                  <td>
+                    <%= pi.label :toppings, topping.get_name_and_cost %>
+                    <%= pi.check_box :topping_ids,{:multiple => true}, topping.id, nil%>
+                  </td>
+              <% end %>
+            </tr>
+          </table>
+      <% end %>
+      <%= t.label :cost %>
+      <%= t.text_field :cost, id: "cost", class: 'form-control' %>
 
-    <%= t.label :pizza_path %>
-    <%= t.collection_select :pizza_path, @images, :to_s, :to_s %>
+      <%= t.label :pizza_path %>
+      <%= t.collection_select :pizza_path, @images, :to_s, :to_s %>
 
-    <%= t.label :enabled %>
-    <%= t.check_box :enabled %>
+      <%= t.label :enabled %>
+      <%= t.check_box :enabled %>
 
-    <%= t.submit "Save", class: "btn btn-primary" %>
-<% end %>
+      <%= t.submit "Save", class: "btn btn-primary" %>
+  <% end %>
+  </div>
+</body>

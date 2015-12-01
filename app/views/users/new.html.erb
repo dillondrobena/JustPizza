@@ -1,8 +1,8 @@
 <body class="signup-page">
   <% provide(:title, "Register") %>
-  <h1 id="signup-page-msg">Sign Up! It's Lonely Here Without You...</h1>
+  <h1 class="header-msg">Sign Up! It's Lonely Here Without You...</h1>
   <div class="row">
-    <div class="col-md-6 col-md-offset-3 signup-area">
+    <div class="col-md-6 col-md-offset-3 form-area">
       <%= form_for @user do |t| %>
           <%= render 'shared/error_messages' %>
 

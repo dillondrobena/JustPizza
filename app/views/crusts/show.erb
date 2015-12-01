@@ -1,18 +1,21 @@
 <% provide(:title, "Crusts") %>
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <p>
-      <strong>Name:</strong>
-      <%= @crust.name %>
-    </p>
+<body class="show-crust-page">
+  <h1 class="header-msg">Pizza Crust</h1>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 form-area added-crust-area">
+      <p>
+        <strong>Name:</strong>
+        <%= @crust.name %>
+      </p>
 
-    <p>
-      <strong>Enabled:</strong>
-      <%= @crust.enabled %>
-    </p>
+      <p>
+        <strong>Enabled:</strong>
+        <%= @crust.enabled %>
+      </p>
 
-    <%= link_to 'Edit', edit_crust_path(@crust) %> |
-    <%= link_to 'Back', crusts_path %>
+      <%= link_to 'Edit', edit_crust_path(@crust) %> |
+      <%= link_to 'Back', crusts_path %>
 
+    </div>
   </div>
-</div>
+</body>

@@ -1,8 +1,8 @@
 <body class="order-history-page">
   <h1>Your Past Orders</h1>
-  <div class="past-order">
   <% @orders.each do |order| %>
       <% order.pizza_orders.each do |pi_order| %>
+      <div class="past-order">
           <% if pi_order.pizza_type == "Special" %>
               <h3><%= pi_order.pizza.pizza.name %></h3><hr/>
               Crust Type: <%= pi_order.pizza.pizza.crust.name %><br/>
@@ -30,6 +30,6 @@
       <% end %>
       Total: <%= order.cost %><br/>
       <hr/>
+    </div>
   <% end %>
-  </div>
 </body>

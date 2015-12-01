@@ -1,22 +1,25 @@
 <% provide(:title, "Edit " + @topping.name) %>
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <%= form_for @topping do |t| %>
-        <%= render 'shared/topping_error_messages' %>
+<body class="edit-topping-page">
+  <h1 class="header-msg">Topping to Add</h1>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 form-area">
+      <%= form_for @topping do |t| %>
+          <%= render 'shared/topping_error_messages' %>
 
-        <%= t.label :name %>
-        <%= t.text_field :name, class: 'form-control'%>
+          <%= t.label :name %>
+          <%= t.text_field :name, class: 'form-control'%>
 
-        <%= t.label :cost %>
-        <%= t.text_field :cost, class: 'form-control' %>
+          <%= t.label :cost %>
+          <%= t.text_field :cost, class: 'form-control' %>
 
-        <%= t.label :enabled %>
-        <%= t.check_box :enabled %>
+          <%= t.label :enabled %>
+          <%= t.check_box :enabled %>
 
-        <%= t.submit "Update", class: "btn btn-primary" %>
-    <% end %>
+          <%= t.submit "Update", class: "btn btn-primary" %>
+      <% end %>
 
-    <%= link_to 'Show', @topping %> |
-    <%= link_to 'Back', toppings_path %>
+      <%= link_to 'Show', @topping %> |
+      <%= link_to 'Back', toppings_path %>
+    </div>
   </div>
-</div>
+</body>

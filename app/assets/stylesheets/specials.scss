@@ -4,3 +4,40 @@
 #cost {
   width: 60px;
 }
+
+.special-page {
+  background-image: url("table-cloth.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.new-special-page, .edit-special-page, .show-special-page {
+  background-image: url("background-for-specials.jpg");
+  background-size: auto;
+}
+
+.special-table-background {
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #0044cc #0044cc #002a80;
+}
+
+.new-special-btn {
+  margin-bottom: 25px;
+}
+
+.special-table {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.show-special-area {
+  text-align: center;
+}
+
+.edit-special-area, .new-special-area {
+  background-color: white;
+  padding: 30px;
+  border-radius: 25px;
+}

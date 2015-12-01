@@ -49,12 +49,12 @@
         <% if logged_in? and is_admin? %>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Admin Tools <b class="caret"></b>
+                 <span class="glyphicon glyphicon-king" data-toggle="tooltip" data-placement="bottom" title="Admin Tools"></span><b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><%= link_to "Toppings", toppings_path %></li>
-                <li><%= link_to "Specials", specials_path %></li>
-                <li><%= link_to "Crusts", crusts_path %></li>
+                <li class="admin-nav"><%= link_to "Toppings", toppings_path %></li>
+                <li class="admin-nav"><%= link_to "Specials", specials_path %></li>
+                <li class="admin-nav"><%= link_to "Crusts", crusts_path %></li>
               </ul>
             </li>
         <% end %>

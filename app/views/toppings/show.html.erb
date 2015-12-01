@@ -1,23 +1,26 @@
 <% provide(:title, "Toppings") %>
-<div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <p>
-      <strong>Name:</strong>
-      <%= @topping.name %>
-    </p>
+<body class="show-topping-page">
+  <h1 class="header-msg">Added Topping</h1>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 form-area added-topping-area">
+      <p>
+        <strong>Name:</strong>
+        <%= @topping.name %>
+      </p>
 
-    <p>
-      <strong>Cost:</strong>
-      <%= @topping.cost %>
-    </p>
+      <p>
+        <strong>Cost:</strong>
+        <%= @topping.cost %>
+      </p>
 
-    <p>
-      <strong>Enabled:</strong>
-      <%= @topping.enabled %>
-    </p>
+      <p>
+        <strong>Enabled:</strong>
+        <%= @topping.enabled %>
+      </p>
 
-    <%= link_to 'Edit', edit_topping_path(@topping) %> |
-    <%= link_to 'Back', toppings_path %>
+      <%= link_to 'Edit', edit_topping_path(@topping) %> |
+      <%= link_to 'Back', toppings_path %>
 
+    </div>
   </div>
-</div>
+</body>

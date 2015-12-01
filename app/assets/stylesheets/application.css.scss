@@ -53,14 +53,14 @@
    background-image: url("background-for-edit-page.jpg");
  }
 
- .login-area, .signup-area, .edit-area {
+ .form-area {
    background-color: white;
    padding: 20px;
    border-radius: 8px;
    border: solid black 1px;
  }
 
- #login-page-msg, #signup-page-msg, #edit-page-msg {
+.header-msg {
    color: #F7FE2E;
    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
  }
@@ -82,6 +82,10 @@
    list-style-position: inside;
    background-color: white;
    border-radius: 5px;
+ }
+
+ .admin-nav {
+   text-align: center;
  }
 
  #error_explanation {
