@@ -34,7 +34,7 @@
         <hr/>
     <% end %>
     <div class="container-fluid place-order-btn">
-        <span>Grand Total: $<%= @grandTotal %>
+        <span>Grand Total: $<%= @grandTotal.round(2) %>
         <br/>
         <%= link_to "Place " + pluralize(@orders.count, "Order") , place_order_path, method: :post, class: 'btn btn-primary' %></span>
     </div>
