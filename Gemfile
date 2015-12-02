@@ -8,7 +8,9 @@ gem 'rails', '4.2.4'
 gem 'rspec'
 
 #Coveralls used for test coverage
-gem 'coveralls', require: false
+gem 'coveralls', '~> 0.8.3', require: false
+
+gem 'simplecov', '0.10.0'
 #Dynamic form generation
 gem 'cocoon'
 #Bootstrap for client-side css
