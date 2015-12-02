@@ -1,6 +1,6 @@
 <body class="edit-special-page">
   <h1 class="header-msg">Edit Special</h1>
-  <div class="edit-special-area">
+  <div class="edit-special-area form-area">
   <%= form_for @special do |t| %>
       <%= render 'shared/special_error_messages' %>
       <%= t.fields_for :pizza do |pi| %>
