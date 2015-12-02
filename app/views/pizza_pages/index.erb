@@ -1,9 +1,31 @@
 <body class="homepage">
   <% if not logged_in? %>
-    <h1 class="homepage-msg">Welcome to our Pizza Site</h1>
-  <% else %>
-    <h1 class="homepage-msg">Welcome to JustPizza!!!</h1>
-  <% end %>
-  <div class="container-fluid">
+  <h1 class="homepage-msg">Welcome to our Pizza Site</h1>
+  <div class="container-fluid col-md-6 col-md-offset-3" id="home-text-box">
+    <div id="home-inner-text-box">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+        has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      <div id="home-page-btns">
+        <div class="btn-group" role="group">
+          <%= link_to 'Sign Up', new_user_path, class: 'btn btn-lg btn-primary' %>
+          <%= link_to 'Log In', login_path, class: 'btn btn-lg btn-primary' %>
+        </div>
+      </div>
+    </div>
   </div>
+  <% else %>
+  <h1 class="homepage-msg">Welcome to JustPizza!!!</h1>
+  <div class="container-fluid col-md-6 col-md-offset-3" id="signon-splash-box">
+    <div id="signon-inner-text-box">
+      <p id="signon-msg">
+        We assume you're hungry since you just logged in. Don't worry. We've got all kinds of special pizzas, and if you're feeling adventurous, try you're hand at making a custom pizza. Our topping and crust selection is pretty amazing. It kinda goes
+        without saying that everything here is delcious. So.....
+      </p>
+      <%= link_to 'Order Up A Pizza!', new_order_path, class: "btn btn-lg btn-primary" %>
+    </div>
+  </div>
+  <% end %>
 </body>

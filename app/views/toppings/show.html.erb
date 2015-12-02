@@ -17,10 +17,10 @@
         <strong>Enabled:</strong>
         <%= @topping.enabled %>
       </p>
-
-      <%= link_to 'Edit', edit_topping_path(@topping) %> |
-      <%= link_to 'Back', toppings_path %>
-
+      <div class="btn-group" role="group">
+        <%= link_to 'Edit', edit_topping_path(@topping), class: "btn btn-md btn-primary" %>
+        <%= link_to 'Back', toppings_path, class: "btn btn-md btn-primary" %>
+      </div>
     </div>
   </div>
 </body>

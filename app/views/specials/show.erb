@@ -16,10 +16,10 @@
       <p>
         <strong>Toppings:</strong>
         <% @special.pizza.toppings.each do |topping| %>
-          <%= topping.name %>
-            <% if topping != @special.pizza.toppings.last %>
-            ,
-            <% end %>
+        <%= topping.name %>
+        <% if topping != @special.pizza.toppings.last %>
+        ,
+        <% end %>
         <% end %>
       </p>
 
@@ -37,10 +37,10 @@
         <strong>Enabled:</strong>
         <%= @special.enabled %>
       </p>
-
-      <%= link_to 'Edit', edit_special_path(@special) %> |
-      <%= link_to 'Back', specials_path %>
-
+      <div class="btn-group" role="group">
+        <%= link_to 'Edit', edit_special_path(@special), class: "btn btn-md btn-primary" %>
+        <%= link_to 'Back', specials_path, class: "btn btn-md btn-primary" %>
+      </div>
     </div>
   </div>
 </body>

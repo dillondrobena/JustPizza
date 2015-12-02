@@ -1,5 +1,5 @@
 <body class="cart-page">
-  <h1>What's in Your Pizza Cart</h1>
+  <h1 class="header-msg">What's in Your Pizza Cart</h1>
   <div class="past-order">
     <% @orders.each do |order| %>
         <% order.pizza_orders.each do |pi_order| %>
@@ -30,7 +30,7 @@
         <% end %>
         Total: <%= order.cost %><br/>
         <hr/>
-        <%= link_to "Delete", order_path(order), method: :delete, class: 'btn' %>
+        <%= link_to "Cancel", order_path(order), method: :delete, class: 'btn btn-primary' %>
         <hr/>
     <% end %>
     <div class="container-fluid place-order-btn">

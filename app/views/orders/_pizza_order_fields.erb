@@ -1,31 +1,32 @@
 <div class="nested-fields box-shadow--6dp">
-  <fieldset data-role="controlgroup" data-type="horizontal" class="form-inline">
+  <fieldset class="form-inline" data-role="controlgroup" data-type="horizontal">
     <legend class="btn-primary top-legend">Specialty Pizzas</legend>
     <% @specials.where(enabled: true).each do |sp| %>
-        <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          <%= f.label :pizza_id, sp.get_name_and_cost %>
+          <%= f.radio_button :pizza_id, sp.id %>
+        </div>
+        <div class="col-sm-5">
           <div class="row">
-            <div class="col-sm-2">
-              <%= f.label :pizza_id, sp.get_name_and_cost %>
-              <%= f.radio_button :pizza_id, sp.id %>
+            <div class="col-sm-6 pizza-info">
+              <%= f.hidden_field :pizza_type, :value => :Special %>
+              <h5>Crust Type:
+                <%= sp.pizza.crust.name %></h5>
+              <h5>Toppings:
+                <% sp.pizza.toppings.each do |top| %>
+                <%= top.name + (top == sp.pizza.toppings.last ? "" : ",") %>
+                <% end %>
+              </h5>
             </div>
             <div class="col-sm-5">
-              <div class="row">
-                <div class="col-sm-6 pizza-info">
-                  <%= f.hidden_field :pizza_type, :value => :Special %>
-                  <h5>Crust Type:  <%= sp.pizza.crust.name %></h5>
-                  <h5>Toppings:
-                    <% sp.pizza.toppings.each do |top| %>
-                        <%= top.name + (top == sp.pizza.toppings.last ? "" : ",") %>
-                    <% end %>
-                  </h5>
-                </div>
-                <div class="col-sm-5">
-                  <%= image_tag(sp.pizza_path, :class => "img-responsive img-circle pizza-icon") %>
-                </div>
-              </div>
+              <%= image_tag(sp.pizza_path, :class => "img-responsive img-circle pizza-icon") %>
             </div>
           </div>
         </div>
+      </div>
+    </div>
     <% end %>
     <legend class="btn-primary">Custom Pizzas</legend>
     <div class="container-fluid">
@@ -33,14 +34,14 @@
       <%= f.radio_button :pizza_id, "Custom", class: "custom_pizza" %>
       <div id="custom_pizza_fields">
         <%= f.fields_for :pizza_attributes do |pi| %>
-            <%= render partial: 'custom_pizza', locals: {pi: pi} %>
+        <%= render partial: 'custom_pizza', locals: {pi: pi} %>
         <% end %>
       </div>
     </div>
   </fieldset>
   <hr/>
   <div class="container-fluid">
-    <%= f.label :quantity %>
+    <%= f.label :quantity, id: "total-tag" %>
     <%= f.number_field :quantity, :value => 1, class: "number_field quantity"%>
   </div>
   <hr id="delete-btn-mark"/>

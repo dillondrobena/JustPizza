@@ -14,115 +14,153 @@
  *= require_self
  */
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two|Italiana|Montserrat|Roboto+Slab|Bitter);
-
- .navbar, .nested-fields, .btn, .past-order, h1 {
-   font-family: 'Lobster Two', sans-serif;
- }
-
- legend {
-   text-align: center;
- }
-
- .past-order {
-   text-align: center;
- }
-
- .top-legend {
-   border-top-left-radius: 21px;
-   border-top-right-radius: 21px;
- }
-
- .box-shadow--6dp {
-     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2)
- }
-
- .homepage-msg {
-   color: #F7FE2E;
-   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
- }
-
- .signup-page {
-   background: url("background-for-signup-page.jpg") no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
-
- .login-page {
-   background: url("background-for-login-page.jpeg") no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover; }
-
- .edit-page {
-   background: url("background-for-edit-page.jpg") no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover; }
-
- .form-area {
-   background-color: white;
-   padding: 20px;
-   border-radius: 8px;
-   border: solid black 1px;
- }
-
+.navbar,
+.nested-fields,
+.btn,
+.past-order,
+h1 {
+  font-family: 'Lobster Two', sans-serif;
+}
+legend {
+  text-align: center;
+}
+.top-legend {
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+}
+.box-shadow--6dp {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2);
+}
+.homepage-msg {
+  color: #F7FE2E;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.signup-page {
+  background: url(background-for-signup-page.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.login-page {
+  background: url(background-for-login-page.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logon-splash {
+  background: url(background-for-logon-splash) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.edit-page {
+  background: url(background-for-edit-page.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.form-area {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: solid black 1px;
+}
 .header-msg {
-   color: #F7FE2E;
-   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
- }
-
- .alert {
-   font-family: "Montserrat", sans-serif;
-   font-weight: bold;
-   color: black;
-   text-align: center;
- }
-
- .error-cause {
-   font-family: "Bitter", sans-serif;
-   font-weight: bold;
-   color: black;
- }
-
- .error-group {
-   list-style-position: inside;
-   background-color: white;
-   border-radius: 5px;
- }
-
- .admin-nav {
-   text-align: center;
- }
-
- #error_explanation {
-   text-align: center;
- }
-
+  color: #F7FE2E;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.alert {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.error-cause {
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.error-group {
+  list-style-position: inside;
+  background-color: white;
+  border-radius: 5px;
+}
+.admin-nav {
+  text-align: center;
+}
+#error_explanation {
+  text-align: center;
+}
 .navbar-default {
   background-color: black;
   border: solid black 1px;
   height: 35px;
   color: white;
 }
-
-
 .page-footer {
   color: white;
 }
-
 a.page-footer:hover {
   color: yellow;
   text-decoration: none;
 }
-
 .glyphicon {
   color: white;
 }
-
 .glyphicon:hover {
   color: yellow;
+}
+.cart-delete {
+  font-size: 100%;
+}
+#text-border-logon-splash,
+#logon-splash {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 15px;
+}
+#text-border-logon-splash {
+  background: #F3E2A9;
+}
+#logon-splash {
+  background: #F7F2E0;
+}
+#home-text-box,
+#home-inner-text-box {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 15px;
+}
+#home-text-box {
+  background: #F3E2A9;
+}
+#home-page-btns {
+  text-align: center;
+}
+#home-inner-text-box {
+  background: #F7F2E0;
+}
+#signon-splash-box,
+#signon-inner-text-box {
+  border-radius: 8px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+#signon-splash-box {
+  background: #F3E2A9;
+}
+#signon-inner-text-box {
+  background: #F7F2E0;
+}
+#signon-msg {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logon-splash-btn {
+  text-align: center;
 }
