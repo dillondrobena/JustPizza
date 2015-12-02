@@ -31,8 +31,9 @@
     Quantity:
     <%= pi_order.quantity %><br/>
     <% end %>
+    <%= order.created_at.in_time_zone('Central Time (US & Canada)').strftime("Ordered on: %m/%d/%Y at %I:%M%p %Z") %><br/>
     Total:
-    <%= order.cost %><br/>
+    <%= order.cost.round(2) %><br/>
     <hr/>
   </div>
   <% end %>

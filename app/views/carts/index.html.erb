@@ -2,39 +2,43 @@
   <h1 class="header-msg">What's in Your Pizza Cart</h1>
   <div class="past-order">
     <% @orders.each do |order| %>
-        <% order.pizza_orders.each do |pi_order| %>
-            <% if pi_order.pizza_type == "Special" %>
-                <h3><%= pi_order.pizza.pizza.name %></h3><hr/>
-                Crust Type: <%= pi_order.pizza.pizza.crust.name %><br/>
-                Toppings:
-                <% pi_order.pizza.pizza.toppings.each do |topping| %>
-                    <%= topping.name %>
-                    <% if topping != pi_order.pizza.pizza.toppings.last %>
-                        ,
-                    <% end %>
-                <% end %>
-                <br/>
-            <% else %>
-                <h3>Custom</h3><hr/>
-                Crust Type: <%= pi_order.pizza.crust.name %><br/>
-                Toppings:
-                <% pi_order.pizza.toppings.each do |topping| %>
-                    <%= topping.name %>
-                    <% if topping != pi_order.pizza.toppings.last %>
-                        ,
-                    <% end %>
-                <% end %>
-                <br/>
-            <% end %>
-            Quantity: <%= pi_order.quantity %><br/>
-        <% end %>
-        Total: <%= order.cost %><br/>
-        <hr/>
-        <%= link_to "Cancel", order_path(order), method: :delete, class: 'btn btn-primary' %>
-        <hr/>
+    <% order.pizza_orders.each do |pi_order| %>
+    <% if pi_order.pizza_type == "Special" %>
+    <h3><%= pi_order.pizza.pizza.name %></h3><hr/>
+    Crust Type:
+    <%= pi_order.pizza.pizza.crust.name %><br/>
+    Toppings:
+    <% pi_order.pizza.pizza.toppings.each do |topping| %>
+    <%= topping.name %>
+    <% if topping != pi_order.pizza.pizza.toppings.last %>
+    ,
+    <% end %>
+    <% end %>
+    <br/>
+    <% else %>
+    <h3>Custom</h3><hr/>
+    Crust Type:
+    <%= pi_order.pizza.crust.name %><br/>
+    Toppings:
+    <% pi_order.pizza.toppings.each do |topping| %>
+    <%= topping.name %>
+    <% if topping != pi_order.pizza.toppings.last %>
+    ,
+    <% end %>
+    <% end %>
+    <br/>
+    <% end %>
+    Quantity:
+    <%= pi_order.quantity %><br/>
+    <% end %>
+    Total:
+    <%= order.cost %><br/>
+    <hr/>
+    <%= link_to "Cancel", order_path(order), method: :delete, class: 'btn btn-primary' %>
+    <hr/>
     <% end %>
     <div class="container-fluid place-order-btn">
-        <span>Grand Total: $<%= @grandTotal.round(2) %>
+      <span>Grand Total: $<%= @grandTotal.round(2) %>
         <br/>
         <%= link_to "Place " + pluralize(@orders.count, "Order") , place_order_path, method: :post, class: 'btn btn-primary' %></span>
     </div>

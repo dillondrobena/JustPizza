@@ -1,21 +1,21 @@
 <body class="order-page">
   <h1 class="header-msg">Place Your Order</h1>
   <%= form_for @order do |f| %>
-      <%= render 'shared/order_error_messages' %>
-      <%= f.fields_for :pizza_orders do |pi_order| %>
-          <%= render partial: 'pizza_order_fields', locals: {f: pi_order} %>
-      <% end%>
-      <div class="add-field container">
-        <%= link_to_add_association 'Add Pizza', f, :pizza_orders, id: "add_btn", class: "btn btn-lg btn-primary" %>
-      </div>
-      <br/>
-      <div id="order-total-area" class="col-xs-2">
-        <div id="order-total-bar">
-          <label id="total-tag">Total</label>
-          <input id='order_total' class="number_field form-control" disabled value="0.00"/>
-        </div>
-      </div>
-      <br/>
-      <%= f.submit "Add To Cart", class: "btn btn-lg btn-primary "%>
+  <%= render 'shared/order_error_messages' %>
+  <%= f.fields_for :pizza_orders do |pi_order| %>
+  <%= render partial: 'pizza_order_fields', locals: {f: pi_order} %>
+  <% end%>
+  <div class="add-field container">
+    <%= link_to_add_association 'Add Pizza', f, :pizza_orders, id: "add_btn", class: "btn btn-lg btn-primary" %>
+  </div>
+  <br/>
+  <div class="col-xs-2" id="order-total-area">
+    <div id="order-total-bar">
+      <label id="total-tag">Total</label>
+      <input class="number_field form-control" disabled id='order_total' value="0.00"/>
+    </div>
+  </div>
+  <br/>
+  <%= f.submit "Add To Cart", class: "btn btn-lg btn-primary "%>
   <% end %>
 </body>

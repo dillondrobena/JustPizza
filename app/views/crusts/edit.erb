@@ -4,18 +4,19 @@
   <div class="row">
     <div class="col-md-6 col-md-offset-3 form-area">
       <%= form_for @crust do |t| %>
-          <%= render 'shared/crust_error_messages' %>
+      <%= render 'shared/crust_error_messages' %>
 
-          <%= t.label :name %>
-          <%= t.text_field :name, class: 'form-control'%>
+      <%= t.label :name %>
+      <%= t.text_field :name, class: 'form-control'%>
 
-          <%= t.label :enabled %>
-          <%= t.check_box :enabled %>
+      <%= t.label :enabled %>
+      <%= t.check_box :enabled %>
 
-          <%= t.submit "Update", class: "btn btn-primary" %>
+      <%= t.submit "Update", class: "btn btn-primary" %>
       <% end %>
 
-      <%= link_to 'Show', @crust %> |
+      <%= link_to 'Show', @crust %>
+      |
       <%= link_to 'Back', crusts_path %>
     </div>
   </div>
