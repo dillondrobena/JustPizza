@@ -91,3 +91,28 @@
  #error_explanation {
    text-align: center;
  }
+
+.navbar-default {
+  background-color: black;
+  border: solid black 1px;
+  height: 35px;
+  color: white;
+}
+
+
+.page-footer {
+  color: white;
+}
+
+a.page-footer:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.glyphicon {
+  color: white;
+}
+
+.glyphicon:hover {
+  color: yellow;
+}
