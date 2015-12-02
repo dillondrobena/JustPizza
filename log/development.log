@@ -63165,3 +63165,125 @@ Processing by PizzaPagesController#index as HTML
   Rendered layouts/_header.erb (0.7ms)
   Rendered layouts/_footer.erb (0.0ms)
 Completed 200 OK in 254ms (Views: 253.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-12-01 22:26:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzaPagesController#index as HTML
+  Rendered pizza_pages/index.erb within layouts/application (13.1ms)
+  Rendered layouts/_header.erb (2.9ms)
+  Rendered layouts/_footer.erb (0.8ms)
+Completed 200 OK in 3247ms (Views: 3225.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/crusts.self-f6c6ed7397a060a1b91d1220c605447d2096ae5bd9a851e812432e773b7e8f66.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/carts.self-7d928848c05425f762adf28f65172d539a96e16d1bcdba14ea1ca0163e5d76b1.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/custom.self-2e5b55afb549742c432cfa5d95989c19c9060283614204ea6bb3e6b2abfd6178.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/orders.self-bef7e6225e8b6958f5f067658addde6a5eff68746dcb4e08f6d8d87c91485119.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/partials.self-d4b340c8207c163c8ef1a401e036a3dd3ac23ec349a81f20861ac481fa81b271.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/pizza_pages.self-6d7b8a1f900f2f8eb79740b0e0fa717ddea6e4211d379472bf796ea104856110.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/sessions.self-72af6add748bfb9993d334f2514a057b1fc1daf510ff0e520eadccf72ded8317.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/specials.self-70f1c72159823b2548ec08833d322c4aa14f248394863212bf7a56f1c4f79bd7.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/toppings.self-4930e66494fafd9dec32bed72d0d233cb9eefcde2c7236370cbd8212a24d1d84.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/users_controller.self-9c1efa76c5de1a34b812ee1b996cac95f0d58f5c72f61ba1d2f9a7846ba15cb6.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/application.self-4863c1cfb55c69d05505501bc3fbdf9cd78a2e44930f46e77c9c100b9962c739.css?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/cocoon.self-05633fd25797688a657c08b26b8d4217031ee589f5ca76f0a57c11ac7d0e76ec.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/carts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/crusts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/orders.self-e459f82f16d4c573bb927d66e8355fec311e6e3ef60094046d78cc6d2964b41d.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/pizza_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/specials.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/users_controller.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b22791d3999ab958ff81d179133.js?body=1" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/assets/background-for-homepage.jpg" for ::1 at 2015-12-01 22:26:23 -0600
+
+
+Started GET "/login" for ::1 at 2015-12-01 22:26:42 -0600
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (111.1ms)
+  Rendered layouts/_header.erb (1.7ms)
+  Rendered layouts/_footer.erb (0.3ms)
+Completed 200 OK in 396ms (Views: 395.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background-for-login-page.jpeg" for ::1 at 2015-12-01 22:26:43 -0600
+
+
+Started POST "/login" for ::1 at 2015-12-01 22:26:56 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"60ZDpEEWO9pn1vbxtV5jOq7vMsFc+hGFAY1FkHbbUtmHGck4Luy5oGghhqiNrj2wLSz8+7D3ayAgPzdCWPjP3g==", "session"=>{"email"=>"pepperoni@pizza.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "pepperoni@pizza.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 174ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/users/2" for ::1 at 2015-12-01 22:26:56 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_header.erb (1.6ms)
+  Rendered layouts/_footer.erb (0.0ms)
+Completed 200 OK in 232ms (Views: 229.4ms | ActiveRecord: 0.3ms)
