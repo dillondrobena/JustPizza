@@ -63072,3 +63072,96 @@ Started GET "/assets/application.self-3617df78b875bc8de4772fcbd966b2e1d2376b2279
 
 
 Started GET "/assets/background-for-homepage.jpg" for ::1 at 2015-12-01 20:09:53 -0600
+
+
+Started GET "/" for ::1 at 2015-12-01 20:33:37 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PizzaPagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (21.3ms)
+  Rendered layouts/_header.erb (2.7ms)
+  Rendered layouts/_footer.erb (0.3ms)
+Completed 200 OK in 13699ms (Views: 13686.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.self-2e5b55afb549742c432cfa5d95989c19c9060283614204ea6bb3e6b2abfd6178.css?body=1" for ::1 at 2015-12-01 20:33:51 -0600
+
+
+Started GET "/assets/partials.self-d4b340c8207c163c8ef1a401e036a3dd3ac23ec349a81f20861ac481fa81b271.css?body=1" for ::1 at 2015-12-01 20:33:51 -0600
+
+
+Started GET "/assets/pizza_pages.self-e244ea2f97d69e37138261c5148b92c31cefefb7b0973a296a5168cffc7c8826.css?body=1" for ::1 at 2015-12-01 20:33:51 -0600
+
+
+Started GET "/assets/users_controller.self-9c1efa76c5de1a34b812ee1b996cac95f0d58f5c72f61ba1d2f9a7846ba15cb6.css?body=1" for ::1 at 2015-12-01 20:33:51 -0600
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2015-12-01 20:33:51 -0600
+
+
+Started GET "/assets/background-for-homepage.jpg" for ::1 at 2015-12-01 20:33:52 -0600
+
+
+Started GET "/toppings" for ::1 at 2015-12-01 20:34:03 -0600
+Processing by ToppingsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings"
+  Rendered toppings/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_header.erb (1.8ms)
+  Rendered layouts/_footer.erb (0.3ms)
+Completed 200 OK in 374ms (Views: 360.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/table-cloth.jpg" for ::1 at 2015-12-01 20:34:04 -0600
+
+
+Started GET "/crusts" for ::1 at 2015-12-01 20:34:12 -0600
+Processing by CrustsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCrust Load (0.2ms)[0m  SELECT "crusts".* FROM "crusts"
+  Rendered crusts/index.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.erb (0.9ms)
+  Rendered layouts/_footer.erb (0.0ms)
+Completed 200 OK in 221ms (Views: 216.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/orders/new" for ::1 at 2015-12-01 20:34:17 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_order_error_messages.erb (2.4ms)
+  [1m[35mSpecial Load (0.2ms)[0m  SELECT "specials".* FROM "specials" WHERE "specials"."enabled" = ?  [["enabled", "t"]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCrust Load (0.2ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 1]]
+  [1m[35mPizza Load (0.2ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 8]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCrust Load (0.1ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mTopping Load (0.1ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 9]]
+  [1m[35mPizza Load (0.2ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 12]]
+  [1m[36mPizza Load (0.1ms)[0m  [1mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTopping Load (0.2ms)[0m  [1mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?[0m  [["pizza_id", 13]]
+  [1m[35mPizza Load (0.1ms)[0m  SELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = ? LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "crusts".* FROM "crusts" WHERE "crusts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mTopping Load (0.1ms)[0m  SELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = ?  [["pizza_id", 14]]
+  [1m[36mCrust Load (0.2ms)[0m  [1mSELECT "crusts".* FROM "crusts" WHERE "crusts"."enabled" = ?[0m  [["enabled", "t"]]
+  [1m[35mTopping Load (0.2ms)[0m  SELECT "toppings".* FROM "toppings" WHERE "toppings"."enabled" = ?  [["enabled", "t"]]
+  Rendered orders/_custom_pizza.erb (25.2ms)
+  Rendered orders/_pizza_order_fields.erb (278.7ms)
+  Rendered orders/new.html.erb within layouts/application (310.0ms)
+  Rendered layouts/_header.erb (2.2ms)
+  Rendered layouts/_footer.erb (0.0ms)
+Completed 200 OK in 580ms (Views: 565.2ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for ::1 at 2015-12-01 20:34:21 -0600
+Processing by PizzaPagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pizza_pages/index.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.erb (0.7ms)
+  Rendered layouts/_footer.erb (0.0ms)
+Completed 200 OK in 254ms (Views: 253.3ms | ActiveRecord: 0.1ms)
