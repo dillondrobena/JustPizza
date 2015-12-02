@@ -42,16 +42,26 @@
  }
 
  .signup-page {
-   background-image: url("background-for-signup-page.jpg");
+   background: url("background-for-signup-page.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
  }
 
  .login-page {
-   background-image: url("background-for-login-page.jpeg");
- }
+   background: url("background-for-login-page.jpeg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover; }
 
  .edit-page {
-   background-image: url("background-for-edit-page.jpg");
- }
+   background: url("background-for-edit-page.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover; }
 
  .form-area {
    background-color: white;
