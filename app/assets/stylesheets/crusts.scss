@@ -3,9 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .crusts-page {
-  background-image: url("table-cloth.jpg");
-  background-repeat: repeat;
-  background-size: auto;
+  background: url("table-cloth.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .crusts-table-background {
@@ -16,8 +18,11 @@
 }
 
 .new-crust-page, .edit-crust-page, .show-crust-page {
-  background-image: url("background-for-crusts.jpg");
-  background-size: auto;
+  background: url("background-for-crusts.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .crusts-table {
